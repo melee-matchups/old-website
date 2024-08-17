@@ -14,7 +14,6 @@ h1, h2, h3{
 }
 
 .bar-a{
-	height: 100%;
 	text-align: center;
 	display: inline-block;
 	cursor: pointer;
