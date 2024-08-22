@@ -20,6 +20,11 @@
 		</div>
 		<br>
 		<div id="main-content">
+			<div style="width: 100%;">
+				<button onclick='document.querySelectorAll("details").forEach((detail) => {detail.open = false;})' style="font-size: 20px;">-</button>
+				<button onclick='document.querySelectorAll("details").forEach((detail) => {detail.open = true;})' style="font-size: 20px;">+</button>
+				<a target="_blank" href="http://meleeframedata.com/falco"><button style="font-size: 20px;">Flaco's Frame Data</button></a>
+			</div>
 			<details open>
 				<summary style="display: inline;"><h1>Gameplan</h1></summary>
 				<div class="indent-tab">
