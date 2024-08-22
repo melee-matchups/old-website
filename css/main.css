@@ -9,6 +9,11 @@ body{
 	/*overflow-x: hidden;*/
 }
 
+summary{
+	width: 100%;
+	border-top: 1px solid #444444;
+}
+
 h1, h2, h3{
 	font-family: 'SMASH';
 }
@@ -92,6 +97,7 @@ h1, h2, h3{
 	border-radius: 25px;
 	padding: 10px;
 	padding-left: 40px;
+	padding-right: 40px;
 	background-color: rgba(0, 0, 0, .6);
 	min-height: 75%;
 	
@@ -151,7 +157,7 @@ h1, h2, h3{
 }
 
 .fd_bg{
-	background-image: url(./../img/fd_bg.png);
+	/*background-image: url(./../img/fd_bg.png);*/
 	background-repeat: no-repeat;
 	background-color: #2A0040;
 	background-position: center;
