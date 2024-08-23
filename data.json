@@ -1,0 +1,578 @@
+{
+    "bowser": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "Counter up b",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "Bowser",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "dk": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "Counter up b",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Zain VS dk": "https://youtu.be/Ook9U2B8I_o"
+        },
+        "framedata": "donkey_kong",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "doc": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "dr._mario",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "falcon": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marth-uthrow-combo-table-for-falcon.html\">Uthrow table</a>",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Marth vs Captain Falcon guide Melee": "https://docs.google.com/document/d/1zlBsfs7ckGRfMbi7Ri1MhZQvBA8mi8ukavw-IY_uuJ8/edit"
+        },
+        "framedata": "captain_falcon",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "flaco": {
+        "gameplan": "all about positioning your self so falco has to overextend with jump then anti-air with jab, side b, fair or nair, (take lazer -> options work too)",
+        "respect": "",
+        "not_respect": "Falco in the corner doesn't have many options. Don't run away all the time",
+        "edge_guarding": "If Falco doesn't have his double jump and he's below the stage, he has to up b. This is when you go deep and kill him\nFalco resources: double jump, up b, side b, airdodge, (some stages walljump), and shine for stalling.",
+        "combos": "",
+        "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marth-uthrow-combo-table-and-flowchart.html\">Uthrow table</a>",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Smash boards flaco help": "https://smashboards.com/threads/marth-vs-falco-i-just-cant-win.435297/"
+        },
+        "framedata": "falco",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "fox": {
+        "gameplan": "Dash dance and please for the love of god react to his shit",
+        "respect": "Mix up DI on uthrow and uair, try making him dash the furthest distance, then make him dash no where",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marths-uthrow-combos-on-fox-and-falco.html\">Combo flow charts for uthrow</a>",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Chain grab (simple)": "https://docs.google.com/document/d/1SpxgOKu8QUxN6fdlw7v1g2ovV_Qaxqtle97ZPbETdb8/edit"
+        },
+        "framedata": "fox",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "ganon": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Ganon guide": "https://sites.google.com/view/marthrd/matchups/ganondorf"
+        },
+        "framedata": "ganondorf",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "gaw": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "mr._game_&_watch",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "ics": {
+        "gameplan": "neutral game should be mixing Fair and dtilt\nagainst ices you wanna wall them with fair, and use downtilt\nICs have bad time in the air so when you can force them to jump over the dtilt, nair becomes a really good punish on that - nair tends to separate ICs letting you kill nana\nFtilt is good too\napproching fair is a bit too comital, I think I can drift it fowards, but inplace and reteating fairs are good",
+        "respect": "Grab, DI 2 ways, survival for fsmash, up and out to excape follow ups",
+        "not_respect": "Can SDI blizard out to not get grabed, but mix up in sometimes",
+        "edge_guarding": "Nana offstage will always jump when she's close to the ledge (if she has her double jump obvs)\nYou can kill her when she does that",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "ice_climbers",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "kirby": {
+        "gameplan": "Fair alot, zone, he can't do shit lol\nPlay like its smash ultimate",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "kirby",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "link": {
+        "gameplan": "",
+        "respect": "That up B is stupid lol",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "link",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "luigi": {
+        "gameplan": "",
+        "respect": "He can combo break, please just sheild and punish him / outrange him in the air",
+        "not_respect": "",
+        "edge_guarding": "Bair him",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "luigi",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "mario": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "mario",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "marth": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Marth discord talking about dito": "https://discord.com/channels/187922949863374848/188668011534614537/365897193078652948"
+        },
+        "framedata": "marth",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "mewtwo": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "mewtwo",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "ness": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "ness",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "peach": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "The Marth vs Peach complete guide": "https://docs.google.com/document/d/1uDkFiuvy43o4TI-JdZGUEiPpKRN-2wWGHgirqACieBw/edit#heading=h.c08g3i3cdasn"
+        },
+        "framedata": "peach",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "pichu": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "pichu",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "pika": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Edgeguarding Quick Attack Sweetspots": "https://tm-25.blogspot.com/2018/05/edgeguarding-quick-attack-sweetspots.html"
+        },
+        "framedata": "pikachu",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "puff": {
+        "gameplan": "",
+        "respect": "Bair lol",
+        "not_respect": "Sing",
+        "edge_guarding": "Stay the fuck at ledge and do NOT go out, just fair / bair / fsmash a high approch and dtilt / fsmash a low approch",
+        "combos": "",
+        "throws": "50-77%:  Mixup=fthrow pivot tip vs dthrow raw tip\n78-92%: Mixup=fthrow pivot tip (rc dsmash on down and away) vs dthrow pivot tip (From around 83% until 92% there is no reason to mixup dthrow, since you can cover every DI with a kill option)\n92-110%: Mixup= fthrow WD tip/utilt  vs dthrow pivot tip or WD uptilt\n110-120%: fthrow WD tip or uptilt vs dthrow pivot tip OR wavedash fsmash (If they do a spinning animation during up and in di you do an instant uptilt, if they dont you delay the uptilt by 7 frames)\n120-130%: fthrow RC fsmash or uptilt on no DI (DL only), vs up and in uair on YS, FD and PS or uptilt on DL, fod and BF\n130-150%: Fthrow RC fsmash, uair or uptilt (DL).",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "PPMD puff MU": "https://smashboards.com/threads/carefully-ask-ppmd-about-the-tiara-guy.118998/page-213#post-14520061"
+        },
+        "framedata": "jigglypuff",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "roy": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "roy",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "samus": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "Stay on stage or ledge, dont go out",
+        "combos": "Keep in air",
+        "throws": "Fthrow -> fairUthrow later %s for juggle",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "samus",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "sheik": {
+        "gameplan": "Grab em\ndtilt pressure, the dman thing is broken, stay grounded\nCan run up and shield, but make sure they dont grab you\nAvoid the grab, so don't throw out stupid shit, you'll be grabed\nWalling with nair works too",
+        "respect": "Don't approach with Fair\nDI sheik dthrow up and away",
+        "not_respect": "She can't punish tipper fsmash on sheild\nif the sheik is spamming downsmash on your shield, then you can actually always shieldgrab her as long as you shield DI towards her\nIf she hits your sheild, you mostly always punish (mabey if she dash backs she can escape, but you can read this or cover it)\nif sheik camps, Waveland forward into downtilt",
+        "edge_guarding": "Please grab ledge\nIf you are facing towards the stage and a d-throw will not allow her to freely grab the ledge, that is your option. If she does not DI properly (which is away), Marth can turnaround dtilt. Her options are extremely limited at this point because if she double-jumps and/or tries to attack, she eats a tipper fsmash (or, occasionally, counter) and loses her stock.",
+        "combos": "Keep her in the air with juggles and force her offstage or to the ledge",
+        "throws": "Port 1 Throw vs Sheik (Un-staled Throw)\nU-throw U-tilt\nNo DI: 21%-39%\nDI in: 22%-30%\nDI away:18%-32%\nU-throw F/U-air\nNo DI: 39%-85%\nDI in: 27%-76%\nDI away: 22%-72%\nDthrow is better than fthrow at low % for a tech chase\nAt higher %s, can look for F-throw into Pivot F-smash (tech chase if needed)\nFthrow & Bthrow are positinal throws used to set up an edge guard",
+        "defence": "Wavedash OOS\nAbuse CC and dash back",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Melee Matchup guides: Marth vs Sheik": "https://www.youtube.com/watch?v=VXJd6Qu2B-0",
+            "1 Hour of KoDoRiN vs Leffen Unranked Friendlies": "https://www.youtube.com/watch?v=bG9BPLA4evA",
+            "Sheik Shit On Reddit": "https://www.reddit.com/r/SSBM/comments/hpawa5/comment/fxtcivx/?utm_medium=web3x&utm_name=web3xcss&utm_term=1",
+            "Marth v. Sheik quizlet": "https://quizlet.com/141509254/marth-v-sheik-flash-cards/"
+        },
+        "framedata": "sheik",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "yoshi": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "Can counter down b",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {
+            "Marth vs Yoshi guide by Renzo": "https://docs.google.com/document/d/1W2JZjlVcPGA3DTWZ3motybJ6IxNuWBIA_FyNl2WItTo/edit#heading=h.ubokkzgyd2xw",
+            "Marth Yoshi DJ armor, CC, ASDI down percents": "https://docs.google.com/spreadsheets/d/1QG6spPCChXAJWu8C5c8t1G0qG3TN8Y5LcDG08u3hQh8/edit?gid=1811897045#gid=1811897045"
+        },
+        "framedata": "yoshi",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    },
+    "young link": {
+        "gameplan": "",
+        "respect": "",
+        "not_respect": "",
+        "edge_guarding": "",
+        "combos": "",
+        "throws": "",
+        "defence": "",
+        "recovery": "",
+        "stages": {
+            "good": [],
+            "bad": []
+        },
+        "resources": {},
+        "framedata": "young_link",
+        "pos": {
+            "best": [],
+            "good": [],
+            "ok": [],
+            "bad": []
+        }
+    }
+}

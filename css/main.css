@@ -11,11 +11,22 @@ body{
 
 summary{
 	width: 100%;
-	border-top: 2px solid #444444;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
 	font-family: 'SMASH';
+}
+
+th, td {
+	font-size: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	font-family: 'SMASH';
+}
+
+@font-face {
+    font-family: 'SMASH';
+    src: url('./../smash.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 .bar-a{
@@ -85,10 +96,91 @@ h1, h2, h3{
     appearance: button;
 }
 
+.stage {
+	text-align: bottom;
+	width: 300;
+	display:inline-block;
+	margin: 10px;
+	background-color: black !important;
+	color: white;
+	font-family: 'SMASH';
+}
 
-@font-face {
-    font-family: 'SMASH';
-    src: url('./../smash.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+.fd_bg{
+	/*background-image: url(./../img/fd_bg.png);*/
+	background-repeat: no-repeat;
+	background-color: #2A0040;
+	background-position: center;
+	background-size: cover;
+	image-rendering: pixelated;
+}
+
+.indent-tab{
+	word-wrap: break-word;
+	white-space: normal;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #444444;
+	border-left: 2px solid #444444;
+}
+
+.indent-tab > pre{
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.good{
+	display: inline;
+	position: relative;
+	float: left;
+	bottom: 75px;
+	width: 32;
+	height: 32;
+	content:url("./../img/good.png");
+}
+.bad{
+	display: inline;
+	position: relative;
+	float: left;
+	bottom: 75px;
+	width: 32;
+	height: 32;
+	content:url("./../img/bad.png");
+}
+.mid{
+	display: inline;
+	position: relative;
+	float: left;
+	bottom: 75px;
+	width: 32;
+	height: 32;
+	content:url("./../img/mid.png");
+}
+.null{
+	display: inline;
+	position: relative;
+	float: left;
+	bottom: 75px;
+	width: 32;
+	height: 32;
+	content:url("./../img/null.png");
+}
+.q{
+	display: inline;
+	position: relative;
+	float: left;
+	bottom: 75px;
+	width: 32;
+	height: 32;
+	content:url("./../img/q.png");
+	left: 32px;
+}
+
+#marth_sword_img {
+	float: left;
 }
 
 #main-content{
@@ -144,94 +236,4 @@ h1, h2, h3{
 	margin: 0px;
 	text-align: center;
 	height: 100%;
-}
-
-.stage {
-	text-align: bottom;
-	width: 300;
-	display:inline-block;
-	margin: 10px;
-	background-color: black !important;
-	color: white;
-	font-family: 'SMASH';
-}
-
-.fd_bg{
-	/*background-image: url(./../img/fd_bg.png);*/
-	background-repeat: no-repeat;
-	background-color: #2A0040;
-	background-position: center;
-	background-size: cover;
-	image-rendering: pixelated;
-}
-
-.indent-tab{
-	word-wrap: break-word;
-	white-space: normal;
-}
-
-.indent-tab > pre{
-	white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-
-th, td {
-	font-size: 20px;
-	padding-right: 20px;
-	padding-bottom: 5px;
-	font-family: 'SMASH';
-}
-
-#marth_sword_img {
-	float: left;
-}
-
-.good{
-	display: inline;
-	position: relative;
-	float: left;
-	bottom: 75px;
-	width: 32;
-	height: 32;
-	content:url("./../img/good.png");
-}
-.bad{
-	display: inline;
-	position: relative;
-	float: left;
-	bottom: 75px;
-	width: 32;
-	height: 32;
-	content:url("./../img/bad.png");
-}
-.mid{
-	display: inline;
-	position: relative;
-	float: left;
-	bottom: 75px;
-	width: 32;
-	height: 32;
-	content:url("./../img/mid.png");
-}
-.null{
-	display: inline;
-	position: relative;
-	float: left;
-	bottom: 75px;
-	width: 32;
-	height: 32;
-	content:url("./../img/null.png");
-}
-.q{
-	display: inline;
-	position: relative;
-	float: left;
-	bottom: 75px;
-	width: 32;
-	height: 32;
-	content:url("./../img/q.png");
-	left: 32px;
 }
