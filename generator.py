@@ -109,6 +109,15 @@ template = """
 </html>
 """
 
+stage_names = {
+    "fd": "Final Destination",
+    "ys": "Yoshi's Story",
+    "ps1": "Pokemon Stadium",
+    "fod": "Fountin Of Dreams",
+    "dl": "Dream Land",
+    "bf": "Battle Feild",
+}
+
 json_data = json.load(open("data.json"))
 
 for name in json_data:
@@ -118,8 +127,22 @@ for name in json_data:
         "name_lower": name.lower(),
         "resources": "<br>".join([f'<a target="_blank" href="{json_data[name]["resources"][n]}">{n}</a>' for n in json_data[name]["resources"]]),
         "framedata": json_data[name]["framedata"],
-        "stages": "<h4>Good</h4>" + ("<br>".join(['<p>%s</p>' % stage for stage in json_data[name]["stages"]["good"]])) + "<h4>Bad</h4>" + ("<br>".join(['<p>%s</p>' % stage for stage in json_data[name]["stages"]["bad"]])),
-        "pos": "",
+        "stages": "<h2>Good</h2>" + (
+            "".join(
+                [
+                    f'<span class="stage"><img width=250 src="./../img/stages/{stage}.png"><center>{stage_names[stage]}</center></span>'
+                    for stage in list(filter(None, json_data[name]["stages"]["good"].split(",")))
+                ]
+            )
+        ) + "<br><h2>Bad</h2>" + (
+            "".join(
+                [
+                    f'<span class="stage"><img width=250 src="./../img/stages/{stage}.png"><center>{stage_names[stage]}</center></span>'
+                    for stage in list(filter(None, json_data[name]["stages"]["bad"].split(",")))
+                ]
+            )
+        ),
+        "pos": "<br>".join([f"<h4>{state}</h4>" + ("".join([f'<li>{pos}</li>' for pos in json_data[name]["pos"][state]])) for state in json_data[name]["pos"]]),
     }
 
     with open("./matchups/" + name + ".html", "w") as fp:

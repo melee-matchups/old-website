@@ -9,8 +9,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "Bowser",
@@ -31,8 +31,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "Zain VS dk": "https://youtu.be/Ook9U2B8I_o"
@@ -55,8 +55,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "dr._mario",
@@ -77,8 +77,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "Marth vs Captain Falcon guide Melee": "https://docs.google.com/document/d/1zlBsfs7ckGRfMbi7Ri1MhZQvBA8mi8ukavw-IY_uuJ8/edit"
@@ -101,8 +101,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "Smash boards flaco help": "https://smashboards.com/threads/marth-vs-falco-i-just-cant-win.435297/"
@@ -125,8 +125,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "Chain grab (simple)": "https://docs.google.com/document/d/1SpxgOKu8QUxN6fdlw7v1g2ovV_Qaxqtle97ZPbETdb8/edit"
@@ -149,8 +149,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "Ganon guide": "https://sites.google.com/view/marthrd/matchups/ganondorf"
@@ -173,8 +173,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "mr._game_&_watch",
@@ -195,8 +195,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "ice_climbers",
@@ -217,8 +217,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "kirby",
@@ -239,8 +239,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "link",
@@ -261,8 +261,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "luigi",
@@ -283,8 +283,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "mario",
@@ -305,8 +305,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "Marth discord talking about dito": "https://discord.com/channels/187922949863374848/188668011534614537/365897193078652948"
@@ -329,8 +329,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "mewtwo",
@@ -351,8 +351,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "ness",
@@ -373,8 +373,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "The Marth vs Peach complete guide": "https://docs.google.com/document/d/1uDkFiuvy43o4TI-JdZGUEiPpKRN-2wWGHgirqACieBw/edit#heading=h.c08g3i3cdasn"
@@ -397,8 +397,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "pichu",
@@ -419,8 +419,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "Edgeguarding Quick Attack Sweetspots": "https://tm-25.blogspot.com/2018/05/edgeguarding-quick-attack-sweetspots.html"
@@ -443,8 +443,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "PPMD puff MU": "https://smashboards.com/threads/carefully-ask-ppmd-about-the-tiara-guy.118998/page-213#post-14520061"
@@ -467,8 +467,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "roy",
@@ -489,8 +489,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "samus",
@@ -511,8 +511,8 @@
         "defence": "Wavedash OOS\nAbuse CC and dash back",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "fd",
+            "bad": "ys"
         },
         "resources": {
             "Melee Matchup guides: Marth vs Sheik": "https://www.youtube.com/watch?v=VXJd6Qu2B-0",
@@ -522,10 +522,10 @@
         },
         "framedata": "sheik",
         "pos": {
-            "best": [],
-            "good": [],
-            "ok": [],
-            "bad": []
+            "best": ["Sheik OffStage"],
+            "good": ["Sheik In Tech On Platform", "Sheik In Air"],
+            "ok": ["Sheik In Tech", "Sheik On Platform"],
+            "bad": ["Marth Offstage", "Marth On Ledge"]
         }
     },
     "yoshi": {
@@ -538,8 +538,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {
             "Marth vs Yoshi guide by Renzo": "https://docs.google.com/document/d/1W2JZjlVcPGA3DTWZ3motybJ6IxNuWBIA_FyNl2WItTo/edit#heading=h.ubokkzgyd2xw",
@@ -563,8 +563,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": [],
-            "bad": []
+            "good": "",
+            "bad": ""
         },
         "resources": {},
         "framedata": "young_link",
