@@ -116,27 +116,28 @@
         }
     },
     "fox": {
-        "gameplan": "Dash dance and please for the love of god react to his shit",
+        "gameplan": "Dash dance just outside of his burst range\nYou don't really want to overshoot, run cancel dtilt is good if they are just DD\nOtherwise undershoot with dtilt and fair, and whiff punish with grab\n\nDon't overshoot nair that shit sucks",
         "respect": "Mix up DI on uthrow and uair, try making him dash the furthest distance, then make him dash no where",
-        "not_respect": "",
+        "not_respect": "Lazers are suprisingly unsafe at close distances, so punish him for it",
         "edge_guarding": "",
         "combos": "",
         "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marths-uthrow-combos-on-fox-and-falco.html\">Combo flow charts for uthrow</a>",
-        "defence": "",
+        "defence": "CC approches by fox, maily going to be nair",
         "recovery": "",
         "stages": {
-            "good": "",
-            "bad": ""
+            "good": "fd,dl",
+            "bad": "dl,bf"
         },
         "resources": {
-            "Chain grab (simple)": "https://docs.google.com/document/d/1SpxgOKu8QUxN6fdlw7v1g2ovV_Qaxqtle97ZPbETdb8/edit"
+            "Chain grab (simple)": "https://docs.google.com/document/d/1SpxgOKu8QUxN6fdlw7v1g2ovV_Qaxqtle97ZPbETdb8/edit",
+			"GURU MU": "https://melee.guru/characters/matchups/marth-vs-fox.html"
         },
         "framedata": "fox",
         "pos": {
-            "best": [],
-            "good": [],
-            "ok": [],
-            "bad": []
+            "best": ["Fox Offstage"],
+            "good": ["Fox Above Marth"],
+            "ok": ["Fox In Tech"],
+            "bad": ["Marth Above Fox"]
         }
     },
     "ganon": {
