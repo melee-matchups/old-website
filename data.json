@@ -123,9 +123,9 @@
         "combos": "",
         "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marths-uthrow-combos-on-fox-and-falco.html\">Combo flow charts for uthrow</a>",
         "defence": "CC approches by fox, maily going to be nair",
-        "recovery": "",
+        "recovery": "<a href='https://www.youtube.com/watch?v=8LoaduZZTA8&list=PLoU3TQBakHOqTUZpyYJoP6usmYGQKmolx&index=4'>Edguarding fox</a>",
         "stages": {
-            "good": "fd,dl",
+            "good": "fd,fod",
             "bad": "dl,bf"
         },
         "resources": {
