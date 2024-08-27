@@ -92,27 +92,27 @@
         }
     },
     "flaco": {
-        "gameplan": "all about positioning your self so falco has to overextend with jump then anti-air with jab, side b, fair or nair, (take lazer -> options work too)",
+        "gameplan": "Try to move around looking for opportunities to dash attack when hes going to laser, or whiff punish his aerial approaches with grab\nTry to powersheild his lazers\nWhen he is dash dancing, you can WD forward down tilt/fsmash\n\nWhen you get hit by lazer in the air do one of:\n1: fair if he is close enough to be hit\n2: wave land back / fowards\n3: land and react to his option\n\nWhen you (or falco) get hit by lazer on the ground (or in sheild) do one of:\n1: dash back and hope to get a grab\n2: nair in place\n3: wave dash forward down tilt. \n4: If you have a hard read on what he’ll do next, you can do something else",
         "respect": "",
         "not_respect": "Falco in the corner doesn't have many options. Don't run away all the time",
-        "edge_guarding": "If Falco doesn't have his double jump and he's below the stage, he has to up b. This is when you go deep and kill him\nFalco resources: double jump, up b, side b, airdodge, (some stages walljump), and shine for stalling.",
+        "edge_guarding": "If Falco doesn't have his double jump and he's below the stage, he has to up b. This is when you go deep and kill him\nFalco resources: double jump, up b / side b, airdodge, (some stages walljump), and shine for stalling.",
         "combos": "",
         "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marth-uthrow-combo-table-and-flowchart.html\">Uthrow table</a>",
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": "",
-            "bad": ""
+            "good": "fd,ys",
+            "bad": "dl,fod"
         },
         "resources": {
             "Smash boards flaco help": "https://smashboards.com/threads/marth-vs-falco-i-just-cant-win.435297/"
         },
         "framedata": "falco",
         "pos": {
-            "best": [],
-            "good": [],
-            "ok": [],
-            "bad": []
+            "best": ["Falco offstage"],
+            "good": ["Falco in tech", "Falco on platform"],
+            "ok": ["Falco above me"],
+            "bad": ["Above flaco", "Scramble situation"]
         }
     },
     "fox": {
