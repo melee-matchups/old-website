@@ -142,7 +142,7 @@
     },
     "ganon": {
         "gameplan": "",
-        "respect": "",
+        "respect": "Repect his range, don't overshoot at all, he will fuck you up for approching",
         "not_respect": "",
         "edge_guarding": "",
         "combos": "",
@@ -150,8 +150,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": "",
-            "bad": ""
+            "good": "fd,dl",
+            "bad": "ys,fod"
         },
         "resources": {
             "Ganon guide": "https://sites.google.com/view/marthrd/matchups/ganondorf"
