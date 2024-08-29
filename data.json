@@ -77,8 +77,8 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": "",
-            "bad": ""
+            "good": "fod,ys",
+            "bad": "dl,ps1"
         },
         "resources": {
             "Marth vs Captain Falcon guide Melee": "https://docs.google.com/document/d/1zlBsfs7ckGRfMbi7Ri1MhZQvBA8mi8ukavw-IY_uuJ8/edit"
@@ -117,7 +117,7 @@
     },
     "fox": {
         "gameplan": "Dash dance just outside of his burst range\nYou don't really want to overshoot, run cancel dtilt is good if they are just DD\nOtherwise undershoot with dtilt and fair, and whiff punish with grab\n\nDon't overshoot nair that shit sucks",
-        "respect": "Mix up DI on uthrow and uair, try making him dash the furthest distance, then make him dash no where",
+        "respect": "Mix up DI on uthrow and uair, try making him dash the furthest distance, then make him dash no where\n\nRespect his ledgedash",
         "not_respect": "Lazers are suprisingly unsafe at close distances, so punish him for it",
         "edge_guarding": "<a href='https://www.youtube.com/watch?v=8LoaduZZTA8&list=PLoU3TQBakHOqTUZpyYJoP6usmYGQKmolx&index=4'>Edguarding fox</a>",
         "combos": "",
@@ -187,7 +187,7 @@
         }
     },
     "ics": {
-        "gameplan": "neutral game should be mixing Fair and dtilt\nagainst ices you wanna wall them with fair, and use downtilt\nICs have bad time in the air so when you can force them to jump over the dtilt, nair becomes a really good punish on that - nair tends to separate ICs letting you kill nana\nFtilt is good too\napproching fair is a bit too comital, I think I can drift it fowards, but inplace and reteating fairs are good",
+        "gameplan": "neutral game should be mixing Fair and dtilt\nagainst ices you wanna wall them with fair, and use downtilt\nICs have bad time in the air so when you can force them to jump over the dtilt, nair becomes a really good punish on that - nair tends to separate ICs letting you kill nana\nFtilt is good too\napproching fair is a bit too comital, I think I can drift it fowards, but inplace and reteating fairs are good\nDon't dash dance too predictably, dash back & wait if they appoch, punish, else wait for them to approch or carefully take back space",
         "respect": "Grab, DI 2 ways, survival for fsmash, up and out to excape follow ups",
         "not_respect": "Can SDI blizard out to not get grabed, but mix up in sometimes",
         "edge_guarding": "Nana offstage will always jump when she's close to the ledge (if she has her double jump obvs)\nYou can kill her when she does that",
@@ -196,7 +196,7 @@
         "defence": "",
         "recovery": "",
         "stages": {
-            "good": "",
+            "good": "fod,dl",
             "bad": ""
         },
         "resources": {},
@@ -369,7 +369,7 @@
         "respect": "",
         "not_respect": "",
         "edge_guarding": "",
-        "combos": "",
+        "combos": "juggling lol",
         "throws": "",
         "defence": "",
         "recovery": "",
@@ -504,7 +504,7 @@
     },
     "sheik": {
         "gameplan": "Grab em\ndtilt pressure, the dman thing is broken, stay grounded\nCan run up and shield, but make sure they dont grab you\nAvoid the grab, so don't throw out stupid shit, you'll be grabed\nWalling with nair works too",
-        "respect": "Don't approach with Fair\nDI sheik dthrow up and away",
+        "respect": "Don't approach with Fair\nDI sheik dthrow up and away\n\nRespect (fully charged) needles, try not to get hit for free, and don't run at them when they do them",
         "not_respect": "She can't punish tipper fsmash on sheild\nif the sheik is spamming downsmash on your shield, then you can actually always shieldgrab her as long as you shield DI towards her\nIf she hits your sheild, you mostly always punish (mabey if she dash backs she can escape, but you can read this or cover it)\nif sheik camps, Waveland forward into downtilt",
         "edge_guarding": "Please grab ledge\nIf you are facing towards the stage and a d-throw will not allow her to freely grab the ledge, that is your option. If she does not DI properly (which is away), Marth can turnaround dtilt. Her options are extremely limited at this point because if she double-jumps and/or tries to attack, she eats a tipper fsmash (or, occasionally, counter) and loses her stock.",
         "combos": "Keep her in the air with juggles and force her offstage or to the ledge",
