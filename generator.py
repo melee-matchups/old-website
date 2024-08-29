@@ -20,6 +20,7 @@ template = """
 				<a class="bar-a" href="./../guides.html"><button class="bar-button">Guides & Tech</button></a>
 				<a class="bar-a" href="./../framedata.html"><button class="bar-button">Framedata</button></a>
 				<a class="bar-a" href="./../matchups.html"><button class="bar-button">MatchUps</button></a>
+				<a class="bar-a" href="./../stages.html"><button class="bar-button">Stages</button></a>
 			</center>
 		</div>
 		<br>
@@ -147,7 +148,6 @@ for name in json_data:
 
     with open("./matchups/" + name + ".html", "w") as fp:
         fp.write(template.format(**format_dict))
-
 
 
 
