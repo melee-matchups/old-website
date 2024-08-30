@@ -92,7 +92,7 @@
         }
     },
     "flaco": {
-        "gameplan": "Try to move around looking for opportunities to dash attack when hes going to laser, or whiff punish his aerial approaches with grab\nTry to powersheild his lazers\nWhen he is dash dancing, you can WD forward down tilt/fsmash\n\nWhen you get hit by lazer in the air do one of:\n1: fair if he is close enough to be hit\n2: wave land back / fowards\n3: land and react to his option\n\nWhen you (or falco) get hit by lazer on the ground (or in sheild) do one of:\n1: dash back and hope to get a grab\n2: nair in place\n3: wave dash forward down tilt. \n4: If you have a hard read on what he’ll do next, you can do something else",
+        "gameplan": "Try to move around looking for opportunities to dash attack when hes going to laser, or whiff punish his aerial approaches with grab\nTry to powersheild his lazers\nWhen he is dash dancing, you can WD forward down tilt/fsmash\n\nWhen you get hit by lazer in the air do one of:\n1: fair if he is close enough to be hit\n2: wave land back / fowards\n3: land and react to his option\n\nWhen you (or falco) get hit by lazer on the ground (or in shield) do one of:\n1: dash back and hope to get a grab\n2: nair in place\n3: wave dash forward down tilt. \n4: If you have a hard read on what he’ll do next, you can do something else",
         "respect": "",
         "not_respect": "Falco in the corner doesn't have many options. Don't run away all the time",
         "edge_guarding": "If Falco doesn't have his double jump and he's below the stage, he has to up b. This is when you go deep and kill him\nFalco resources: double jump, up b / side b, airdodge, (some stages walljump), and shine for stalling.",
@@ -116,17 +116,17 @@
         }
     },
     "fox": {
-        "gameplan": "Dash dance just outside of his burst range\nYou don't really want to overshoot, run cancel dtilt is good if they are just DD\nOtherwise undershoot with dtilt and fair, and whiff punish with grab\n\nDon't overshoot nair that shit sucks",
-        "respect": "Mix up DI on uthrow and uair, try making him dash the furthest distance, then make him dash no where\n\nRespect his ledgedash",
-        "not_respect": "Lazers are suprisingly unsafe at close distances, so punish him for it",
-        "edge_guarding": "<a href='https://www.youtube.com/watch?v=8LoaduZZTA8&list=PLoU3TQBakHOqTUZpyYJoP6usmYGQKmolx&index=4'>Edguarding fox</a>",
-        "combos": "",
+        "gameplan": "The way to beat Fox is to out manoeuvre him\nYou must keep pace with his obligatory bullshit, space around it and punish hard when given an opening\nALLWAYS be looking at the Fox, you will not be able to react to his shit otherwise\n\nYou must be comfortable with moving around with DD and WD, combining the 2 to make a perfectly spaced neutral\n\nAfter this has been achieve, you will be moving around the Fox's burst options, those most commonly being a dash or sh into a very fast move\nYou will need to react to witch he choses and punish accordingly\nAdditinaly, you will need to observe if the Fox wishes to over extend\nThe best way to stop this is to wall just outside of his dash distance, using fast fall fair and nair and dtilt to make sure he doesn't try to attack your dash backs, and to catch any unthoughtful approaches (tho these are more to threaten rather than try to hit him)\n\nFinaly if the Fox decides that approaching is not game, then just run up dtilt / fair then GTFO of there, this should make them do shit most the time\n\nYou really do not want to approach Fox most the time, by approach, I mean be anywhere near him, since that's where he will be at his strongest, so the best position for you, is cornering him, so take space, but NEVER overextend on him, you can overshoot if he does not want to play for a prolonged period of time, otherwise keep your zone",
+        "respect": "Mix up DI on uthrow and uair, try making him dash the furthest distance, then make him dash no where\n\nRespect his ledge-dash, that shit is insane, when near the ledge, stand just far enough where fair will hit a max distance ledge dash usmash, this will allow you to react to what he does after it, and you can punish if he tries something stupid\n\nFOR THE EVER LOVING FUCK PLEASE STOP JUMPING INFRONT OF FOX, he will kill you for it, never ever jump when you are in his DD range, it is not worth it, you can jump outside of it to wall, but never to an aerial inside of his range",
+        "not_respect": "Lazars are surprisingly unsafe at close distances, so punish him for it if he doesn't want to approach",
+        "edge_guarding": "<a href='https://www.youtube.com/watch?v=8LoaduZZTA8&list=PLoU3TQBakHOqTUZpyYJoP6usmYGQKmolx&index=4'>Edgeguarding fox</a>\n\nBe smart, you must be aware of where and when the Fox wishes to do something\nYou must position yourself differently depending on what the Fox likes to do",
+        "combos": "Basically try to dair him or fsmash him after aerials, utilt is a good combo starter, often leading him offstage or into a dair",
         "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marths-uthrow-combos-on-fox-and-falco.html\">Combo flow charts for uthrow</a>",
-        "defence": "CC approches by fox, maily going to be nair",
-        "recovery": "",
+        "defence": "Don't shield, if you do shield one of his attacks, it becomes RPS of rolling, WD OOS, or grab / aerial OOS (this last option is risky AF, but catches some of the obligatory bullshit he will try on your shield that is not safe)\n\nAnother option to shielding is just to CC alot at low %, this will probably end up with you being able to grab, dtilt or fsmash if he is at high % or near a ledge",
+        "recovery": "Watch out for his shine, try not to be too close to the ledge for too long as that's where it is most potent, be quick and decisive on where you want to go, as a hesitation is all the Fox needs to shine spike you",
         "stages": {
-            "good": "fd,fod",
-            "bad": "dl,bf"
+            "good": "fd",
+            "bad": "dl"
         },
         "resources": {
             "Chain grab (simple)": "https://docs.google.com/document/d/1SpxgOKu8QUxN6fdlw7v1g2ovV_Qaxqtle97ZPbETdb8/edit",
@@ -134,15 +134,15 @@
         },
         "framedata": "fox",
         "pos": {
-            "best": ["Fox Offstage"],
-            "good": ["Fox Above Marth"],
-            "ok": ["Fox In Tech"],
-            "bad": ["Marth Above Fox"]
+            "best": ["Fox Offstage", "Fox in tech on platform", "Fox in juggle"],
+            "good": ["Fox Above Marth", "Fox in corner", "Fox In Tech in corner"],
+            "ok": ["Fox In Tech (RTC is a bit hard on them)", "Marth outside of Fox dash range, but not in corner"],
+            "bad": ["Marth Above Fox", "Marth in Fox dash range", "Marth in corner"]
         }
     },
     "ganon": {
         "gameplan": "",
-        "respect": "Repect his range, don't overshoot at all, he will fuck you up for approching",
+        "respect": "Repect his range, don't overshoot at all, he will fuck you up for approaching",
         "not_respect": "",
         "edge_guarding": "",
         "combos": "",
@@ -254,7 +254,7 @@
     },
     "luigi": {
         "gameplan": "",
-        "respect": "He can combo break, please just sheild and punish him / outrange him in the air",
+        "respect": "He can combo break, please just shield and punish him / outrange him in the air",
         "not_respect": "",
         "edge_guarding": "Bair him",
         "combos": "",
@@ -437,7 +437,7 @@
     "puff": {
         "gameplan": "",
         "respect": "Bair lol",
-        "not_respect": "Sing",
+        "not_respect": "Sing\n\nUp b pound on shield in air ",
         "edge_guarding": "Stay the fuck at ledge and do NOT go out, just fair / bair / fsmash a high approch and dtilt / fsmash a low approch",
         "combos": "",
         "throws": "50-77%:  Mixup=fthrow pivot tip vs dthrow raw tip\n78-92%: Mixup=fthrow pivot tip (rc dsmash on down and away) vs dthrow pivot tip (From around 83% until 92% there is no reason to mixup dthrow, since you can cover every DI with a kill option)\n92-110%: Mixup= fthrow WD tip/utilt  vs dthrow pivot tip or WD uptilt\n110-120%: fthrow WD tip or uptilt vs dthrow pivot tip OR wavedash fsmash (If they do a spinning animation during up and in di you do an instant uptilt, if they dont you delay the uptilt by 7 frames)\n120-130%: fthrow RC fsmash or uptilt on no DI (DL only), vs up and in uair on YS, FD and PS or uptilt on DL, fod and BF\n130-150%: Fthrow RC fsmash, uair or uptilt (DL).",
