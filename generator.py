@@ -93,7 +93,7 @@ template = """
 			</details>
 
 			<details open>
-				<summary style="display: inline;"><h1>Stages</h1></summary>
+				<summary style="display: inline;"><h1>Stages (ordered)</h1></summary>
 				<div class="indent-tab">
 					{stages}
 				</div>
@@ -124,6 +124,7 @@ json_data = json.load(open("data.json"))
 for name in json_data:
     format_dict = {
         **{tag: "<div>" + ("<br>".join(json_data[name][tag].split("\n"))) + "</div>" for tag in json_data[name] if type(json_data[name][tag]) == str},
+        
         "name": name.title(),
         "name_lower": name.lower(),
         "resources": "<br>".join([f'<a target="_blank" href="{json_data[name]["resources"][n]}">{n}</a>' for n in json_data[name]["resources"]]),
