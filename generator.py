@@ -21,6 +21,7 @@ template = """
 				<a class="bar-a" href="./../framedata.html"><button class="bar-button">Framedata</button></a>
 				<a class="bar-a" href="./../matchups.html"><button class="bar-button">MatchUps</button></a>
 				<a class="bar-a" href="./../stages.html"><button class="bar-button">Stages</button></a>
+				<a class="bar-a" href="./../options.html"><button class="bar-button">Options</button></a>
 			</center>
 		</div>
 		<br>
