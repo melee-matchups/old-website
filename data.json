@@ -92,11 +92,11 @@
         }
     },
     "flaco": {
-        "gameplan": "Try to move around looking for opportunities to whack him when hes going to laser (probably with dash attack / fair), or whiff punish his aerial approaches with grab\nTry to powersheild his lazers\nWhen he is dash dancing, you can WD forward down tilt/fsmash\n\nWhen you get hit by lazer in the air do one of:\n1: fair if he is close enough to be hit\n2: wave land back / fowards\n3: land and react to his option\n\nWhen you (or falco) get hit by lazer on the ground (or in shield) do one of:\n1: dash back and hope to get a grab\n2: nair in place\n3: wave dash forward down tilt. \n4: If you have a hard read on what he’ll do next, you can do something else",
+        "gameplan": "Try to move around looking for opportunities to whack him when hes going to laser (probably with dash attack / fair), or whiff punish his aerial approaches with grab\nTry to powersheild his lazers\nWhen he is dash dancing camping, you can WD forward down tilt/fsmash\n\nWhen you get hit by lazer in the air do one of:\n1: fair if he is close enough to be hit\n2: wave land back / fowards\n3: land and react to his option\n\nWhen you (or falco) get hit by lazer on the ground (or in shield) do one of:\n1: dash back and hope to get a grab\n2: nair in place\n3: wave dash forward down tilt. \n4: If you have a hard read on what he’ll do next, you can do something else",
         "respect": "",
         "not_respect": "Falco in the corner doesn't have many options. Don't run away all the time\n\nCan jab side b from ledge, clank, the go dash grab him",
         "edge_guarding": "If Falco doesn't have his double jump and he's below the stage, he has to up b. This is when you go deep and kill him\nFalco resources: double jump, up b / side b, airdodge, (some stages walljump), and shine for stalling.",
-        "combos": "",
+        "combos": "Super late fair/spaced nair can both lead to a clean grab opportunity at low %",
         "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marth-uthrow-combo-table-and-flowchart.html\">Uthrow table</a>",
         "defence": "",
         "recovery": "",
@@ -120,7 +120,7 @@
         "respect": "Mix up DI on uthrow and uair, try making him dash the furthest distance, then make him dash no where\n\nRespect his ledge-dash, that shit is insane, when near the ledge, stand just far enough where fair will hit a max distance ledge dash usmash, this will allow you to react to what he does after it, and you can punish if he tries something stupid\n\nFOR THE EVER LOVING FUCK PLEASE STOP JUMPING INFRONT OF FOX, he will kill you for it, never ever jump when you are in his DD range, it is not worth it, you can jump outside of it to wall, but never to an aerial inside of his range",
         "not_respect": "Lazars are surprisingly unsafe at close distances, so punish him for it if he doesn't want to approach",
         "edge_guarding": "<a href='https://www.youtube.com/watch?v=8LoaduZZTA8&list=PLoU3TQBakHOqTUZpyYJoP6usmYGQKmolx&index=4'>Edgeguarding fox</a>\n\nBe smart, you must be aware of where and when the Fox wishes to do something\nYou must position yourself differently depending on what the Fox likes to do",
-        "combos": "Basically try to dair him or fsmash him after aerials, utilt is a good combo starter, often leading him offstage or into a dair",
+        "combos": "Basically try to dair him or fsmash him after aerials, utilt is a good combo starter, often leading him offstage or into a dair\n\nSuper late fair/spaced nair can both lead to a clean grab opportunity at low %",
         "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marths-uthrow-combos-on-fox-and-falco.html\">Combo flow charts for uthrow</a>",
         "defence": "Don't shield, if you do shield one of his attacks, it becomes RPS of rolling, WD OOS, or grab / aerial OOS (this last option is risky AF, but catches some of the obligatory bullshit he will try on your shield that is not safe)\n\nAnother option to shielding is just to CC alot at low %, this will probably end up with you being able to grab, dtilt or fsmash if he is at high % or near a ledge",
         "recovery": "Watch out for his shine, try not to be too close to the ledge for too long as that's where it is most potent, be quick and decisive on where you want to go, as a hesitation is all the Fox needs to shine spike you\n\nDONT JUMP TO LEGDE YOU WILL BE SHINED",
@@ -435,27 +435,28 @@
         }
     },
     "puff": {
-        "gameplan": "",
-        "respect": "Bair lol",
-        "not_respect": "Sing\n\nUp b pound on shield in air ",
-        "edge_guarding": "Stay the fuck at ledge and do NOT go out, just fair / bair / fsmash a high approach and dtilt / fsmash a low approach",
-        "combos": "",
+        "gameplan": "Don't scrap with puff, play range game\nDD around their moves (side b and bair are the most common) AND mix up *air drift for walling\n*air -> 0-20 (puff): nair, 20-100: fair, 110+%: nair to kill / edge guard\n\nNair is good when they are on plat",
+        "respect": "1-50:\nwatch out for pound\n\n60+:\nWatch out for bair",
+        "not_respect": "1-50:\nDon't care about bair\n\nLightsheild drill",
+        "edge_guarding": "When edge guarding, match their height, just fair / bair / fsmash a high approach, dtilt / dair a low approach\nFsmash / side b / ftilt a mid approch\nCan occaionly go out and bair/dair if they respect you / hold drift in",
+        "combos": "Rest punish (in order of amount of time): neutral b, Walk(push) -> roll though -> charge dsmash, raw tipper fsmash",
         "throws": "50-77%:  Mixup=fthrow pivot tip vs dthrow raw tip\n78-92%: Mixup=fthrow pivot tip (rc dsmash on down and away) vs dthrow pivot tip (From around 83% until 92% there is no reason to mixup dthrow, since you can cover every DI with a kill option)\n92-110%: Mixup= fthrow WD tip/utilt  vs dthrow pivot tip or WD uptilt\n110-120%: fthrow WD tip or uptilt vs dthrow pivot tip OR wavedash fsmash (If they do a spinning animation during up and in di you do an instant uptilt, if they don't you delay the uptilt by 7 frames)\n120-130%: fthrow RC fsmash or uptilt on no DI (DL only), vs up and in uair on YS, FD and PS or uptilt on DL, fod and BF\n130-150%: Fthrow RC fsmash, uair or uptilt (DL).",
-        "defence": "",
-        "recovery": "",
+        "defence": "Can also CC all moves but dair bellow 50%\n\nHigh %:\n\nSheild fsmash -> up b / grab",
+        "recovery": "Don't go too low\nDon't mash side b\nMix up or will be baired to death",
         "stages": {
-            "good": "",
-            "bad": ""
+            "good": "fd",
+            "bad": "dl"
         },
         "resources": {
-            "PPMD puff MU": "https://smashboards.com/threads/carefully-ask-ppmd-about-the-tiara-guy.118998/page-213#post-14520061"
+            "PPMD puff MU": "https://smashboards.com/threads/carefully-ask-ppmd-about-the-tiara-guy.118998/page-213#post-14520061",
+			"THE puff VS marth video (zain huzband training)": "https://www.youtube.com/watch?v=O3cGeAECwUk&list=PLvad0179U0feCeWZOYD58DOlTylx5ABBG&index=3"
         },
         "framedata": "jigglypuff",
         "pos": {
-            "best": [],
-            "good": [],
-            "ok": [],
-            "bad": []
+            "best": ["Puff in grab"],
+            "good": ["Puff in tech chase", "Puff offstage"],
+            "ok": ["Puff on ledge", "Puff on platform"],
+            "bad": ["Marth Above Puff", "Marth facing away next to Puff", "Marth in Sheild"]
         }
     },
     "roy": {
@@ -505,7 +506,7 @@
     "sheik": {
         "gameplan": "Grab em\ndtilt pressure, the damn thing is broken, stay grounded\nCan run up and shield, but make sure they don't grab you\nAvoid the grab, so don't throw out stupid shit, you'll be grabed\nWalling with nair works too",
         "respect": "Don't approach with Fair\nDI sheik dthrow up and away\n\nRespect (fully charged) needles, try not to get hit for free, and don't run at them when they do them",
-        "not_respect": "She can't punish tipper fsmash on shield\nif the sheik is spamming down-smash on your shield, then you can actually always shield-grab her as long as you shield DI towards her\nIf she hits your shield, you mostly always punish (mabey if she dash backs she can escape, but you can read this or cover it)\nif sheik camps, Waveland forward into downtilt",
+        "not_respect": "She can't punish tipper fsmash on shield\nif the sheik is spamming down-smash on your shield, then you can actually always shield-grab her as long as you shield DI towards her\nIf she hits your shield, you mostly always punish (mabey if she dash backs she can escape, but you can read this or cover it)\nif sheik camps, Waveland forward into downtilt\n\nBad aerial drift, can shark alot",
         "edge_guarding": "Please grab ledge\nIf you are facing towards the stage and a d-throw will not allow her to freely grab the ledge, that is your option. If she does not DI properly (which is away), Marth can turnaround dtilt. Her options are extremely limited at this point because if she double-jumps and/or tries to attack, she eats a tipper fsmash (or, occasionally, counter) and loses her stock.",
         "combos": "Keep her in the air with juggles and force her offstage or to the ledge",
         "throws": "Port 1 Throw vs Sheik (Un-staled Throw)\n\nThe DI: U-throw -> U-tilt, U-throw -> F/U-air\nNo DI: 21%-39%, 39%-85%\nDI in: 22%-30%, 27%-76%\nDI away: 18%-32%, 22%-72%\nTrue range: 22%-72%\n\nDthrow is better than fthrow at low % for a tech chase\nAt higher %s, can look for F-throw into Pivot F-smash (tech chase if needed)\nFthrow & Bthrow are positional throws used to set up an edge guard",
