@@ -14,18 +14,18 @@ Camp---zone---pressure---rushdown
 
 > ## Watch out for:
 >- 20%+: dair
->>- dash back grab undershoot dair
->>- nair / Fair overshoot dair
+>    >- dash back grab undershoot dair
+>    >- nair / Fair overshoot dair
 >- shine
->>- not as big as foxes, so can nair / Fair it
->>- can also grab if close enough
+>    >- not as big as foxes, so can nair / Fair it
+>    >- can also grab if close enough
 >- nair when cornered
->>- CC at low %
->>- nair / Fair it
+>    >- CC at low %
+>    >- nair / Fair it
 >- lazer
->>- if get lazered in rising nair, do a fair
->>- dash back ps if to close
->>- crouch ps if far enough away (outside burst range)
+>    >- if get lazered in rising nair, do a fair
+>    >- dash back ps if to close
+>    >- crouch ps if far enough away (outside burst range)
 
 > ## Main neutral tools:
 >- nair
@@ -41,7 +41,7 @@ Camp---zone---pressure---rushdown
 
 > ## Edge guarding
 >- Watch out for side b
->>- can jab / neutral b it
+>    >- can jab / neutral b it
 >- bair go brrr
 
 > ## Stages:
@@ -66,12 +66,12 @@ Camp---zone---pressure---rushdown
 
 > ## Watch out for:
 >- pound at 0-50%
->>- dd / bait it out and punish hard (fsmash or grab)
+>    >- dd / bait it out and punish hard (fsmash or grab)
 >- bair
->>- can CC < 50%
->>- di out for no follow up
+>    >- can CC < 50%
+>    >- di out for no follow up
 >- drill (dair)
->>- lightsheild -> punish
+>    >- lightsheild -> punish
 
 > ## Main neutral tools:
 >- DD
@@ -108,13 +108,13 @@ Camp---zone---pressure---rushdown
 
 > ## Watch out for:
 >- shine
->>- dtilt in place / fade back fair it
->>- sdi when get hit
+>    >- dtilt in place / fade back fair it
+>    >- sdi when get hit
 >- nair / drill
->>- nair / Fair an approaching
->>- Whiff punish in place (dash attack / grab) (depends on spacing)
+>    >- nair / Fair an approaching
+>    >- Whiff punish in place (dash attack / grab) (depends on spacing)
 >- grab
->>- don't sheild, don't be predicable
+>    >- don't sheild, don't be predicable
 
 > ## Main neutral tools:
 >- fair / nair
@@ -146,16 +146,16 @@ Camp---zone---pressure---rushdown
 
 > ## Watch out for:
 >- dtilt
->>- can dair it
->>- can CC it at low % -> dash JC grab
->>- attack what he does after it
+>    >- can dair it
+>    >- can CC it at low % -> dash JC grab
+>    >- attack what he does after it
 >- fair
->>- fair his jump
->>- fair the end Lag of fair
->>- Whiff punish grab
+>    >- fair his jump
+>    >- fair the end Lag of fair
+>    >- Whiff punish grab
 >- fsmash
->>- hard sheild -> wavedash grab
->>- light sheild -> disengage
+>    >- hard sheild -> wavedash grab
+>    >- light sheild -> disengage
 
 > ## Main neutral tools:
 >- dtilt
@@ -191,15 +191,15 @@ Camp---zone---pressure---rushdown
 
 > ## Watch out for:
 >- grab
->>- Whiff punish it
+>    >- Whiff punish it
 >- nair
->>- CC at low %
+>    >- CC at low %
 >- nair it
 >- stomp
->>- Whiff punish
->>- nair / Fair / uair
+>    >- Whiff punish
+>    >- nair / Fair / uair
 >- down b / side b
->>- sheild it -> grab
+>    >- sheild it -> grab
 
 > ## Main neutral tools:
 >- nair
@@ -224,7 +224,7 @@ Camp---zone---pressure---rushdown
 
 ---
 
-# sheik
+# Sheik
 
 > ## Goals:
 >- play pressure
@@ -233,11 +233,11 @@ Camp---zone---pressure---rushdown
 
 > ## Watch out for:
 >- landing fair, very safe
->>- hit it before it comes out
->>- Whiff punish it
+>    >- hit it before it comes out
+>    >- Whiff punish it
 >- needles
->>- if close enough, Jump forwards with aerial
->>- sheild / Jump over them (to a plat if needed)
+>    >- if close enough, Jump forwards with aerial
+>    >- sheild / Jump over them (to a plat if needed)
 
 > ## Main neutral tools:
 >- dtilt
@@ -262,29 +262,3 @@ Camp---zone---pressure---rushdown
 >- 
 
 ---
-
-# character
-
-> ## Goals:
->- play zone
->- 
-
-> ## Watch out for:
->- 
->>- 
-
-> ## Main neutral tools:
->- 
-
-> ## Combos / punish:
->- 
-
-> ## Edge guarding
->- 
-
-> ## Stages:
-> Good: fd, \
-> Bad: dl, 
-
-> ## Other notes
->-
