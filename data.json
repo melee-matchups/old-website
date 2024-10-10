@@ -482,25 +482,27 @@
         }
     },
     "samus": {
-        "gameplan": "",
-        "respect": "",
-        "not_respect": "",
+        "gameplan": "Dash dance inside range, if they decide to camp, power-shield projectiles\nWatch out for CC when doing dtilt / fair approaches, mix in grabs to catch these\n",
+        "respect": "They WILL crouch cancel, be read for CC dsmash\n\nGrab is long",
+        "not_respect": "Grab is 17 frames, so it may be long, but reactable, if your far enough away, you can dash away",
         "edge_guarding": "Stay on stage or ledge, don't go out",
-        "combos": "Keep in air",
-        "throws": "Fthrow -> fairUthrow later %s for juggle",
-        "defence": "",
-        "recovery": "",
+        "combos": "",
+        "throws": "Fthrow is good for a 50/50% mix up for the Samus to have to double jump or mash an aerial, if they choose to mash, out-space with fair, otherwise they have lost their DJ and begin a juggle\nFthrow onto platforms is good to setup fsmash",
+        "defence": "CC is good against Samus, CC -> dtilt / fsmash and CC -> grab",
+        "recovery": "Watch out for side B, drop zone nair / dair",
         "stages": {
-            "good": "",
-            "bad": ""
+            "good": "ys",
+            "bad": "dl"
         },
-        "resources": {},
+        "resources": {
+			
+		},
         "framedata": "samus",
         "pos": {
-            "best": [],
-            "good": [],
-            "ok": [],
-            "bad": []
+            "best": ["Samus in tech on plat", "Samus in air"],
+            "good": ["Samus offstage", "Samus in tech"],
+            "ok": ["Samus in grab"],
+            "bad": ["Marth offstage", "Marth in corner"]
         }
     },
     "sheik": {
