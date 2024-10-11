@@ -1,6 +1,6 @@
 Camp---zone---pressure---rushdown
 
-[How I should play against chars](https://www.smashtierlist.com/dc02b2cfcb9b1da7f008e39fb8d5d898140b0d4dd537e4008e906015b0c48eae/)
+[How I should play against chars](https://www.smashtierlist.com/ad55e023c9b4cda12db3d1070fce3a35559c455e31a5f9834f0ddb736b56a51c/)
 
 ---
 
