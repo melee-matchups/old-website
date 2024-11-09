@@ -179,6 +179,13 @@ th, td {
 	left: 32px;
 }
 
+.tab-content {
+    display: none;
+}
+.tab-content:target {
+    display: block;
+}
+
 #marth_sword_img {
 	float: left;
 }
