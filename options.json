@@ -1,0 +1,36 @@
+{
+    "dtilt": {
+		"Name": "Down Tilt",
+		"Reward": {"Combo": 1, "Kill": 2, "Space": 5, "Risk": 1},
+		
+		"Run Cancel D-Tilt": [
+			"Overshoot",
+			"Catch Landings"
+		],
+		"WD Towards D-Tilt": [
+			"Poke",
+			"Catch Landings",
+			"Wall"
+		],
+		"In-Place D-Tilt": [
+			"Poke",
+			"Catch Landings",
+			"Wall",
+			"Undershoot"
+		],
+		"WD back D-Tilt": [
+			"Catch Landings",
+			"Wall",
+			"Undershoot"
+		]
+	},
+	
+	"MOVE": {
+		"Name": "NAME",
+		"Reward": {"Combo": 1, "Kill": 1, "Space": 1, "Risk": 1},
+		
+		"OPTION": [
+			
+		]
+	}
+}

@@ -1,4 +1,8 @@
-<html>
+import json
+
+options_json = json.load(open("./options.json"))
+
+options_html = """<html>
 	<head>
 		<title>Smash - Melee - Marth</title>
 		<link rel="stylesheet" href="./css/dark-mode.css">
@@ -33,96 +37,89 @@
                 
                 <div id="uses" class="tab-content">
                     <center><h1>Uses</h1></center>
-                    
-
-				<details open>
-					<summary style="display: inline;"><h2>Overshoot</h2></summary>
-					<div class="indent-tab">
-						<a href="#dtilt">Run Cancel D-Tilt</a>
-					</div>
-				</details>
-
-				<details open>
-					<summary style="display: inline;"><h2>Catch Landings</h2></summary>
-					<div class="indent-tab">
-						<a href="#dtilt">Run Cancel D-Tilt</a>,	<a href="#dtilt">WD Towards D-Tilt</a>,	<a href="#dtilt">In-Place D-Tilt</a>,	<a href="#dtilt">WD back D-Tilt</a>
-					</div>
-				</details>
-
-				<details open>
-					<summary style="display: inline;"><h2>Poke</h2></summary>
-					<div class="indent-tab">
-						<a href="#dtilt">WD Towards D-Tilt</a>,	<a href="#dtilt">In-Place D-Tilt</a>
-					</div>
-				</details>
-
-				<details open>
-					<summary style="display: inline;"><h2>Wall</h2></summary>
-					<div class="indent-tab">
-						<a href="#dtilt">WD Towards D-Tilt</a>,	<a href="#dtilt">In-Place D-Tilt</a>,	<a href="#dtilt">WD back D-Tilt</a>
-					</div>
-				</details>
-
-				<details open>
-					<summary style="display: inline;"><h2>Undershoot</h2></summary>
-					<div class="indent-tab">
-						<a href="#dtilt">In-Place D-Tilt</a>,	<a href="#dtilt">WD back D-Tilt</a>
-					</div>
-				</details>
+                    %USES%
                 </div>
 			
-			
-
-
-
-			<div id="dtilt" class="tab-content">
-				<center><h1>Down Tilt</h1></center>
-                <center><span>Combo: <span style='color: #990000'>★☆☆☆☆</span></span>	<span>Kill: <span style='color: red'>★★☆☆☆</span></span>	<span>Space: <span style='color: gold'>★★★★★</span></span>	<span>Risk: <span style='color: green'>★☆☆☆☆</span></span></center>
-				
-
-				<details open>
-					<summary style="display: inline;"><h2>Run Cancel D-Tilt</h2></summary>
-					<div class="indent-tab">
-						<span>Overshoot</span>,	<span>Catch Landings</span>
-					</div>
-				</details>
-
-				<details open>
-					<summary style="display: inline;"><h2>WD Towards D-Tilt</h2></summary>
-					<div class="indent-tab">
-						<span>Poke</span>,	<span>Catch Landings</span>,	<span>Wall</span>
-					</div>
-				</details>
-
-				<details open>
-					<summary style="display: inline;"><h2>In-Place D-Tilt</h2></summary>
-					<div class="indent-tab">
-						<span>Poke</span>,	<span>Catch Landings</span>,	<span>Wall</span>,	<span>Undershoot</span>
-					</div>
-				</details>
-
-				<details open>
-					<summary style="display: inline;"><h2>WD back D-Tilt</h2></summary>
-					<div class="indent-tab">
-						<span>Catch Landings</span>,	<span>Wall</span>,	<span>Undershoot</span>
-					</div>
-				</details>
-			</div>
-
-
-
-			<div id="MOVE" class="tab-content">
-				<center><h1>NAME</h1></center>
-                <center><span>Combo: <span style='color: #990000'>★☆☆☆☆</span></span>	<span>Kill: <span style='color: #990000'>★☆☆☆☆</span></span>	<span>Space: <span style='color: #990000'>★☆☆☆☆</span></span>	<span>Risk: <span style='color: green'>★☆☆☆☆</span></span></center>
-				
-
-				<details open>
-					<summary style="display: inline;"><h2>OPTION</h2></summary>
-					<div class="indent-tab">
-						
-					</div>
-				</details>
-			</div>
+			%CONTENT%
 		</div>
 	</body>
-</html>
+</html>"""
+
+option_html = """			<div id="%ID%" class="tab-content">
+				<center><h1>%NAME%</h1></center>
+                <center><span>Combo: %COMBO%</span>\t<span>Kill: %KILL%</span>\t<span>Space: %SPACE%</span>\t<span>Risk: %RISK%</span></center>
+				%CAT%
+			</div>"""
+
+cat_html = """				<details open>
+					<summary style="display: inline;"><h2>%NAME%</h2></summary>
+					<div class="indent-tab">
+						%CONTENT%
+					</div>
+				</details>"""
+
+def make_stars(n_stars, revs_colors=False):
+    fill_star = "★"
+    star = "☆"
+    colors = {
+        0: "#000099",
+        1: "#990000",
+        2: "red",
+        3: "grey",
+        4: "green",
+        5: "gold",
+    }
+    
+    return f"<span style='color: {colors[5 - n_stars if revs_colors else n_stars]}'>{(fill_star*n_stars) + (star*(5 - n_stars))}</span>"
+
+option_content = ""
+use_mapping = {}
+
+for option_id, options in options_json.items():
+    reward = options.pop("Reward")
+    name = options.pop("Name")
+    
+    categories = ""
+    for option in options:
+        uses = []
+        for use in options[option]:
+            uses.append(f"<span>{use}</span>")
+            if use not in use_mapping:
+                use_mapping[use] = []
+            use_mapping[use].append(f"<a href=\"#{option_id}\">{option}</a>")
+        
+        categories += "\n\n" + ("\n".join([
+            cat_html
+            .replace("%NAME%", option)
+            .replace("%CONTENT%", ",\t".join(uses))
+        ]))
+    
+    option_content += "\n\n\n\n" + (
+        option_html
+        .replace("%ID%", option_id)
+        .replace("%NAME%", name)
+        .replace("%COMBO%", make_stars(reward["Combo"]))
+        .replace("%KILL%", make_stars(reward["Kill"]))
+        .replace("%SPACE%", make_stars(reward["Space"]))
+        .replace("%RISK%", make_stars(reward["Risk"], True))
+        .replace("%CAT%", categories)
+    )
+
+uses_content = ""
+
+for use in use_mapping:
+    uses_content += "\n\n" + (
+        cat_html
+        .replace("%NAME%", use)
+        .replace("%CONTENT%", ",\t".join(use_mapping[use]))
+    )
+
+file_content = (
+    options_html
+    .replace("%CONTENT%", option_content)
+    .replace("%USES%", uses_content)
+)
+
+
+with open("options.html", "w", encoding="UTF-8") as fp:
+    fp.write(file_content)
