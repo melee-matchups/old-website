@@ -1,0 +1,977 @@
+<html>
+	<head>
+		<title>Smash - Melee - Marth</title>
+		<link rel="stylesheet" href="./css/dark-mode.css">
+		<link rel="stylesheet" href="./css/main.css">
+	</head>
+	<body class="fd_bg">
+		<div id="bar">
+			<center style="width: 100%;">
+				<a class="bar-a" href="./index.html" style="float: left;">
+					<svg id="marth_sword_img" height="125" width="125" viewBox="0 0 256 256">
+						<path id="marth_sword_img_path" style="fill:#FFFFFF; stroke:#FFFFFF" d="m 210.35584,45.644161 c -5.02604,-5e-6 -11.99452,-1.263729 -17.63347,4.375223 -5.63895,5.638953 -5.19282,12.308078 -5.19282,12.308078 l -9.8111,9.811106 c -3.37848,-1.295991 -7.59342,-1.105514 -11.86614,0.419845 l -11.07064,-16.99266 -22.56113,-0.817592 -10.98225,15.62264 5.01604,21.854019 9.34707,-18.009126 6.65122,0.375651 6.38606,12.484854 -4.44152,12.750019 -82.996654,68.633552 -15.556349,41.89607 41.896077,-15.55635 68.633556,-82.99665 12.75001,-4.44152 12.48486,6.38606 0.37565,6.65122 -18.00913,9.34707 21.85402,5.01604 15.62264,-10.98225 -0.81759,-22.56113 -16.99266,-11.070636 c 1.52536,-4.272724 1.71584,-8.487656 0.41985,-11.866136 l 9.8111,-9.811106 c 0,0 6.66913,0.446137 12.30808,-5.192816 5.63895,-5.638952 4.37522,-12.607443 4.37522,-17.633475 z M 172.7908,83.209209 c 2.30924,2.309248 0.90763,7.445063 -3.11569,11.468388 -4.02333,4.023325 -9.15914,5.424933 -11.46839,3.115689 -2.30925,-2.309248 -0.90764,-7.445063 3.11569,-11.468388 4.02332,-4.023324 9.15914,-5.424937 11.46839,-3.115689 z"></path>
+					</svg>
+				</a>
+				<a class="bar-a" href="./guides.html"><button class="bar-button">Guides & Tech</button></a>
+				<a class="bar-a" href="./tech.html"><button class="bar-button">Tech Table</button></a>
+				<a class="bar-a" href="./framedata.html"><button class="bar-button">Framedata</button></a>
+				<a class="bar-a" href="./matchups.html"><button class="bar-button">MatchUps</button></a>
+				<a class="bar-a" href="./stages.html"><button class="bar-button">Stages</button></a>
+				<a class="bar-a" href="./options.html"><button class="bar-button">options</button></a>
+			</center>
+		</div>
+		<br>
+		<div id="main-content" style="line-height: 1.6; font-size: 20px;">
+            <center>
+                By: <a href="#type"><button style="font-size: 20px;">Type</button></a>
+                <a href="#use"><button style="font-size: 20px;">Usefulness</button></a>
+                <a href="#dif"><button style="font-size: 20px;">Difficulty</button></a>
+            </center>
+            <br>
+            <table id = "type" class="tech-table tab-content">
+                <tr>
+                    <th style="border-bottom: 5px solid; width: 64;">Type</th>
+                    <th style="border-bottom: 5px solid; width: calc( 100% - ( 64 + 64 + 64 + 128 ) );">Tech name</th>
+                    <th style="border-bottom: 5px solid; width: 64;">Difficulty</th>
+                    <th style="border-bottom: 5px solid; width: 64;">Usefulness</th>
+                    <th style="border-bottom: 5px solid; width: 128;">Link(s)</th>
+                </tr>
+                
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Short hops</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Spaceing / micro spaceing</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Short Hop / Full Hop Aerials (fastfall + auto cancel / l cancel)</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Retreating Aerials (remember nair)</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Act out of SHFFL</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Dash dance / Foxtrot</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/dash-dance.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/fox-trot.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash / Wave landing</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/waveland.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash / Wave landing + Act out of Wave dash / Wave land</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/waveland.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash out of Shield</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Act out of D-Tilt IASA</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/dtilt-iasa.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Pivots</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/empty-pivot.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/perfect-pivot.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Dash out of crouch</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=KsejlibhFvU">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Shield dashing / Shield stopping / Shield pivoting</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shield-stop.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Run cancel</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/run-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Boost Grab (dash attack cancel grab)</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/boost-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Stationary Dash</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/stationary-dash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Shield dashing / Shield stopping / Shield pivoting</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shield-stop.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Fair -> Waveland</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/fair-waveland.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Crouch Cancel + Act out of CC</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/crouch-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Teaching / mix up tech</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/teching.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Amsah Tech</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/amsah-tech.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Ledge tech</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/ledge-tech.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Powersheilding -> WaveDash / Aerial</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/powershield.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">INV Ledge Fair</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=veeJBKLGATE">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Sweet spot Up B</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=wB85NELi_tg">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Ledge dash</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/ledge-dash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Hax dash</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/haxdash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Shield drop / Shai Drop</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shai-drop.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/shield-drop.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Edge cancel Aerials</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/edge-cancels.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Drop cancels</th>
+                    <th style="padding: 20px; "><span style='color: #990000'>★★★★★</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/drop-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">NILs</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/no-impact-land.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Platform Push off</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/platform-pushoff.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Jump Cancel grabs</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/jump-cancel-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">JC grabs</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/jump-cancel-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Double Fair / Fair -> Uair</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/short-hop-double-aerial.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Reverse B</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/b-reversal.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Reverse jab</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #990000'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Instant dash attack</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #990000'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+            </table>
+
+<table id = "use" class="tech-table tab-content">
+                <tr>
+                    <th style="border-bottom: 5px solid; width: 64;">Type</th>
+                    <th style="border-bottom: 5px solid; width: calc( 100% - ( 64 + 64 + 64 + 128 ) );">Tech name</th>
+                    <th style="border-bottom: 5px solid; width: 64;">Difficulty</th>
+                    <th style="border-bottom: 5px solid; width: 64;">Usefulness</th>
+                    <th style="border-bottom: 5px solid; width: 128;">Link(s)</th>
+                </tr>
+                
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Short hops</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Spaceing / micro spaceing</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Short Hop / Full Hop Aerials (fastfall + auto cancel / l cancel)</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Retreating Aerials (remember nair)</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Act out of SHFFL</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Dash dance / Foxtrot</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/dash-dance.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/fox-trot.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash / Wave landing</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/waveland.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash / Wave landing + Act out of Wave dash / Wave land</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/waveland.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash out of Shield</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Act out of D-Tilt IASA</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/dtilt-iasa.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Crouch Cancel + Act out of CC</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/crouch-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Teaching / mix up tech</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/teching.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">INV Ledge Fair</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=veeJBKLGATE">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Sweet spot Up B</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=wB85NELi_tg">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Jump Cancel grabs</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/jump-cancel-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">JC grabs</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/jump-cancel-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Pivots</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/empty-pivot.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/perfect-pivot.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Dash out of crouch</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=KsejlibhFvU">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Shield dashing / Shield stopping / Shield pivoting</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shield-stop.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Run cancel</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/run-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Amsah Tech</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/amsah-tech.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Ledge tech</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/ledge-tech.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Ledge dash</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/ledge-dash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Shield drop / Shai Drop</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shai-drop.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/shield-drop.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Edge cancel Aerials</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/edge-cancels.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Double Fair / Fair -> Uair</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/short-hop-double-aerial.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Boost Grab (dash attack cancel grab)</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/boost-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Stationary Dash</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/stationary-dash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Shield dashing / Shield stopping / Shield pivoting</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shield-stop.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Powersheilding -> WaveDash / Aerial</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/powershield.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Hax dash</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/haxdash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Drop cancels</th>
+                    <th style="padding: 20px; "><span style='color: #990000'>★★★★★</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/drop-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Reverse B</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/b-reversal.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Fair -> Waveland</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/fair-waveland.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">NILs</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/no-impact-land.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Platform Push off</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/platform-pushoff.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Reverse jab</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #990000'>★☆☆☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Instant dash attack</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #990000'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+            </table>
+
+<table id = "dif" class="tech-table tab-content">
+                <tr>
+                    <th style="border-bottom: 5px solid; width: 64;">Type</th>
+                    <th style="border-bottom: 5px solid; width: calc( 100% - ( 64 + 64 + 64 + 128 ) );">Tech name</th>
+                    <th style="border-bottom: 5px solid; width: 64;">Difficulty</th>
+                    <th style="border-bottom: 5px solid; width: 64;">Usefulness</th>
+                    <th style="border-bottom: 5px solid; width: 128;">Link(s)</th>
+                </tr>
+                
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Short hops</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Spaceing / micro spaceing</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Short Hop / Full Hop Aerials (fastfall + auto cancel / l cancel)</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Basics</th>
+                    <th style="padding: 20px; ">Retreating Aerials (remember nair)</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Act out of D-Tilt IASA</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/dtilt-iasa.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Run cancel</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/run-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Reverse B</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/b-reversal.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Reverse jab</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #990000'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Instant dash attack</th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #990000'>★☆☆☆☆</span></th>
+                    <th style="padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Dash dance / Foxtrot</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/dash-dance.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/fox-trot.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash / Wave landing</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/waveland.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash / Wave landing + Act out of Wave dash / Wave land</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/waveland.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Wave dash out of Shield</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/wavedash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Shield dashing / Shield stopping / Shield pivoting</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shield-stop.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Shield dashing / Shield stopping / Shield pivoting</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shield-stop.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Crouch Cancel + Act out of CC</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/crouch-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Teaching / mix up tech</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/teching.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">INV Ledge Fair</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=veeJBKLGATE">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Sweet spot Up B</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=wB85NELi_tg">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Platform Push off</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/platform-pushoff.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Jump Cancel grabs</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/jump-cancel-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">JC grabs</th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/jump-cancel-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Act out of SHFFL</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #00D0FF'>★★★★★</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Dash out of crouch</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://www.youtube.com/watch?v=KsejlibhFvU">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Boost Grab (dash attack cancel grab)</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/boost-grab.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Stationary Dash</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/stationary-dash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="padding: 20px; ">Fair -> Waveland</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/fair-waveland.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Amsah Tech</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/amsah-tech.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Ledge tech</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/ledge-tech.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Ledge dash</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/ledge-dash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Edge cancel Aerials</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/edge-cancels.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">NILs</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★☆☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/no-impact-land.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Attacks</th>
+                    <th style="padding: 20px; ">Double Fair / Fair -> Uair</th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/short-hop-double-aerial.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Movement</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Pivots</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/empty-pivot.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/perfect-pivot.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Defence</th>
+                    <th style="padding: 20px; ">Powersheilding -> WaveDash / Aerial</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/powershield.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Ledge</th>
+                    <th style="padding: 20px; ">Hax dash</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/haxdash.html">-Link 1-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="padding: 20px; ">Shield drop / Shai Drop</th>
+                    <th style="padding: 20px; "><span style='color: #CD7F32'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><span style='color: #ffbf00'>★★★★☆</span></th>
+                    <th style="padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/shai-drop.html">-Link 1-</a><br> <a target="_blank" href="https://melee.guru/characters/tech/shield-drop.html">-Link 2-</a><br></th>
+                </tr>
+
+                <tr>
+                    <th style="border-top: 5px solid; padding: 20px; border-right: 5px solid;">Platform</th>
+                    <th style="border-top: 5px solid; padding: 20px; ">Drop cancels</th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #990000'>★★★★★</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><span style='color: #c0c0c0'>★★★☆☆</span></th>
+                    <th style="border-top: 5px solid; padding: 20px; "><a target="_blank" href="https://melee.guru/characters/tech/drop-cancel.html">-Link 1-</a><br></th>
+                </tr>
+
+            </table>
+		</div>
+	</body>
+</html>

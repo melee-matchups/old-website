@@ -185,6 +185,26 @@ th, td {
 .tab-content:target {
     display: block;
 }
+.check {
+	width: 32;
+	height: 32;
+	content:url("./../img/bad.png");
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.check:checked{
+	content:url("./../img/good.png");
+}
+
+.tech-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.tech-table>td, th {
+	
+}
+
 
 #marth_sword_img {
 	float: left;
