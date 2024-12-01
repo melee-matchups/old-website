@@ -111,9 +111,6 @@ marth_tech = [
     ("Shield dashing / Shield stopping / Shield pivoting", "Movement", 2, 4, [
         "https://melee.guru/characters/tech/shield-stop.html"
     ]),
-    ("Shield dashing / Shield stopping / Shield pivoting", "Movement", 2, 3, [
-        "https://melee.guru/characters/tech/shield-stop.html"
-    ]),
     ("Boost Grab (dash attack cancel grab)", "Movement", 3, 3, [
         "https://melee.guru/characters/tech/boost-grab.html"
     ]),
@@ -165,6 +162,9 @@ marth_tech = [
     ("Ledge tech", "Defence", 3, 4, [
         "https://melee.guru/characters/tech/ledge-tech.html"
     ]),
+    ("SDI (fox uair/shine in UP)", "Defence", 4, 4, [
+        "https://melee.guru/characters/tech/smash-directional-influence.html"
+    ]),
     
     ("Ledge dash", "Ledge", 3, 4, [
         "https://melee.guru/characters/tech/ledge-dash.html"
@@ -177,6 +177,10 @@ marth_tech = [
     ]),
     ("Hax dash", "Ledge", 4, 3, [
         "https://melee.guru/characters/tech/haxdash.html"
+    ]),
+    ("Ledge hogging (WD + fastfall / turn around bair)", "Ledge", 3, 5, [
+        "https://melee.guru/characters/tech/wavedash.html",
+        "https://melee.guru/characters/tech/waveland.html"
     ]),
     
     ("Shield drop / Shai Drop", "Platform", 4, 4, [
@@ -201,14 +205,14 @@ marth_tech = [
     ("Jump Cancel grabs", "Attacks", 2, 5, [
         "https://melee.guru/characters/tech/jump-cancel-grab.html"
     ]),
-    ("JC grabs", "Attacks", 2, 5, [
-        "https://melee.guru/characters/tech/jump-cancel-grab.html"
-    ]),
     ("Reverse jab", "Attacks", 1, 1, []),
     ("Instant dash attack", "Attacks", 1, 1, []),
     ("Reverse B", "Attacks", 1, 3, [
         "https://melee.guru/characters/tech/b-reversal.html"
     ]),
+    ("Attacks on Sheild", "Attacks", 3, 4, []),
+    
+    ("Edge guarding fox in UP", "Attacks", 3, 5, []),
     
 ]
 
@@ -226,4 +230,4 @@ with open("./../tech.html", "w", encoding="utf-8") as fp:
         make_table(sorted(marth_tech, key=lambda v: (types.index(v[1]), 5-v[3], 5-v[2])), "type", 1),
         make_table(sorted(marth_tech, key=lambda v: (5-v[3], types.index(v[1]), 5-v[2])), "use", 3),
         make_table(sorted(marth_tech, key=lambda v: (v[2], types.index(v[1]), 5-v[3])), "dif", 2),
-    ])))
+    ])))    
