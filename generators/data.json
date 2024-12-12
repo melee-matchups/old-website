@@ -370,10 +370,10 @@
         },
         "framedata": "marth",
         "pos": {
-            "best": [],
-            "good": [],
-            "ok": [],
-            "bad": []
+            "best": ["Marth On Ledge", "Marth Off Stage"],
+            "good": ["Marth Above You"],
+            "ok": ["Marth In Corner"],
+            "bad": ["Inverse of Above"]
         }
     },
     "mewtwo": {
