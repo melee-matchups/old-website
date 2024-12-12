@@ -33,18 +33,36 @@ template = """
 				<a target="_blank" href="https://meleeframedata.com/{framedata}"><button style="font-size: 20px;">{name}'s Frame Data</button></a>
 			</div>
 			<details open>
-				<summary style="display: inline;"><h1>Gameplan</h1></summary>
+				<summary style="display: inline;"><h1>Neutral</h1></summary>
 				<div class="indent-tab">
-					{gameplan}
 					<details open>
-						<summary style="display: inline;"><h2>Things to respect</h2></summary>
+						<summary style="display: inline;"><h2>Goals / Advantageous Positioning / Movement</h2></summary>
+						<div class="indent-tab">
+							{movement}
+
+                            <details open>
+                                <summary style="display: inline;"><h2>Advantageous Positions<h2></summary>
+                                <div class="indent-tab">
+                                    {pos}
+                                </div>
+                            </details>
+						</div>
+					</details>
+					<details open>
+						<summary style="display: inline;"><h2>General Game plan</h2></summary>
+						<div class="indent-tab">
+							{gameplan}
+						</div>
+					</details>
+					<details open>
+						<summary style="display: inline;"><h2>Options to respect</h2></summary>
 						<div class="indent-tab">
 							{respect}
 						</div>
 					</details>
 	
 					<details open>
-						<summary style="display: inline;"><h2>Things not to respect</h2></summary>
+						<summary style="display: inline;"><h2>Options to not respect / Can be punished</h2></summary>
 						<div class="indent-tab">
 							{not_respect}
 						</div>
@@ -53,9 +71,20 @@ template = """
 			</details>
 
 			<details open>
-				<summary style="display: inline;"><h1>Combos & Punish routes</h1></summary>
+				<summary style="display: inline;"><h1>Punish Game</h1></summary>
 				<div class="indent-tab">
-					{combos}
+					<details open>
+						<summary style="display: inline;"><h2>Punish routes</h2></summary>
+						<div class="indent-tab">
+							{punish}
+						</div>
+					</details>
+					<details open>
+						<summary style="display: inline;"><h2>Key Combos</h2></summary>
+						<div class="indent-tab">
+							{combos}
+						</div>
+					</details>
 
 					<details open>
 						<summary style="display: inline;"><h2>Edge Guarding</h2></summary>
@@ -70,13 +99,6 @@ template = """
 							{throws}
 						</div>
 					</details>
-
-					<details open>
-						<summary style="display: inline;"><h2>Advantageous Positions<h2></summary>
-						<div class="indent-tab">
-							{pos}
-						</div>
-					</details>
 				</div>
 			</details>
 
@@ -84,8 +106,9 @@ template = """
 				<summary style="display: inline;"><h1>Defence</h1></summary>
 				<div class="indent-tab">
 					{defence}
+                    
 					<details open>
-						<summary style="display: inline;"><h2>How to recover against them</h2></summary>
+						<summary style="display: inline;"><h2>Recovery</h2></summary>
 						<div class="indent-tab">
 							{recovery}
 						</div>
@@ -121,7 +144,7 @@ stage_names = {
     "bf": "Battle Feild",
 }
 
-json_data = json.load(open("data.json"))
+json_data = json.load(open("data.json", encoding="utf-8"))
 
 for name in json_data:
     format_dict = {
@@ -149,7 +172,7 @@ for name in json_data:
         "pos": "<br>".join([f"<h4>{state}</h4>" + ("".join([f'<li>{pos}</li>' for pos in json_data[name]["pos"][state]])) for state in json_data[name]["pos"]]),
     }
 
-    with open("./../matchups/" + name + ".html", "w") as fp:
+    with open("./../matchups/" + name + ".html", "w", encoding="utf-8") as fp:
         fp.write(template.format(**format_dict))
 
 

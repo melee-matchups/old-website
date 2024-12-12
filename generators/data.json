@@ -19,7 +19,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "dk": {
         "gameplan": "",
@@ -43,7 +45,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "doc": {
         "gameplan": "",
@@ -65,7 +69,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "falcon": {
         "gameplan": "",
@@ -89,10 +95,12 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "flaco": {
-        "gameplan": "You want to be dashing just outside his range (dair's range) or just within his range to force him to choose between overshooting your dash back or undershooting\nYou want to hold center, as this forces Falco into the corner and allows you to empty hop at center to take lazer into fair\nIf your far enough away, Falco has to jump to get anything done, we can exploit this in a variety of ways\n\nFalco will ether jump in with an aerial or a lazer\nYou want to aim to ether beat the jump before anything comes out, or jump with him to out range him\nIf he does an aerial, nair normally lasts long enough to catch him and if he does not jump, you can AC it and dash away if he comes in again (because he is slow, he can't really punish this)\nHowever if he lazers the jump / nair, if you have jumped with falco, you should be at a height where you can fair out of the lazers stun\n\nWhen he jumps to lazer, you can do a variety of things depending of your positioning:\n1. you can attack the jump with a dash attack, nair or fair\n2. you can dash away if your too close or in a dash dance and PS the lazer\n3. if your far enough away, you can just crouch PS without giving up space\n4. if he approaches with lazer, you can: (jump, take the lazer, and fair) or (sheild grab him if he spaces badly)\n\nWhen you get hit by lazer in the air do one of:\n1: fair if he is close enough to be hit\n2: wave land back / forwards\n3: jump to / jump WD to a platform\n4: land and react to his option\n\nWhen you (or falco) get hit by lazer on the ground do one of:\n1: dash back and hope to get a grab\n2: nair in place to catch him lazering again\n3: WD / dash away for forwards depending where the Falco flies too (if he overshoots or undershoots his next move)\n4: If you have a hard read on what he’ll do next, you can do something else\n\nWhen he is dash dancing camping, you can WD forward down tilt/fsmash, but its better to take space, as the bird doesn't have much movement\n",
+        "gameplan": "You want to be dashing just outside his range (dair's range) or just within his range to force him to choose between overshooting your dash back or undershooting\nYou want to hold center, as this forces Falco into the corner and allows you to empty hop at center to take lazer into fair\nIf your far enough away, Falco has to jump to get anything done, we can exploit this in a variety of ways\n\nFalco will ether jump in with an aerial or a lazer\nYou want to aim to ether beat the jump before anything comes out, or jump with him to out range him\nIf he does an aerial, nair normally lasts long enough to catch him and if he does not jump, you can AC it and dash away if he comes in again (because he is slow, he can't really punish this)\nHowever if he lazers the jump / nair, if you have jumped with falco, you should be at a height where you can fair out of the lazers stun\n\nWhen he jumps to lazer, you can do a variety of things depending of your positioning:\n1. you can attack the jump with a dash attack, nair or fair\n2. you can dash away if your too close or in a dash dance and PS the lazer\n3. if your far enough away, you can just crouch PS without giving up space\n4. if he approaches with lazer, you can: (jump, take the lazer, and fair) or (sheild grab him if he spaces badly)\n\nWhen you get hit by lazer in the air do one of:\n1: fair if he is close enough to be hit\n2: wave land back / forwards\n3: jump to / jump WD to a platform\n4: land and react to his option\n\nWhen you (or falco) get hit by lazer on the ground do one of:\n1: dash back and hope to get a grab\n2: nair in place to catch him lazering again\n3: WD / dash away for forwards depending where the Falco flies too (if he overshoots or undershoots his next move)\n4: If you have a hard read on what he\u00e2\u20ac\u2122ll do next, you can do something else\n\nWhen he is dash dancing camping, you can WD forward down tilt/fsmash, but its better to take space, as the bird doesn't have much movement\n",
         "respect": "Dair leads to combos after about 15%\n\nShine combos until about 70-80% where you can SDI up the dair to avoid shine follow ups\n\nWhen power sheild, hold the sheild, don't drop sheild, wave dash out of it",
         "not_respect": "Falco in the corner doesn't have many options. You have to try to catch him as he comes out\n\nGrab leads to nothing if you SDI the lazer",
         "edge_guarding": "If Falco doesn't have his double jump and he's below the stage, he has to up b. This is when you go deep and kill him\nCan jab side b from ledge, if it clanks, go dash grab him, your technically positive here\nFalco resources: double jump, up b / side b, airdodge, (some stages walljump), and shine for stalling.",
@@ -106,40 +114,70 @@
         },
         "resources": {
             "Smash boards flaco help": "https://smashboards.com/threads/marth-vs-falco-i-just-cant-win.435297/",
-			"How to take lazer fair properly": "https://youtu.be/sL5BX--u_cI?t=8m55s",
-			"Uthrow table": "https://marthnerd.blogspot.com/2017/03/marth-uthrow-combo-table-and-flowchart.html"
+            "How to take lazer fair properly": "https://youtu.be/sL5BX--u_cI?t=8m55s",
+            "Uthrow table": "https://marthnerd.blogspot.com/2017/03/marth-uthrow-combo-table-and-flowchart.html"
         },
         "framedata": "falco",
         "pos": {
-            "best": ["Falco offstage"],
-            "good": ["Falco in tech", "Falco on platform"],
-            "ok": ["Falco above me"],
-            "bad": ["Above flaco", "Scramble situation"]
-        }
+            "best": [
+                "Falco offstage"
+            ],
+            "good": [
+                "Falco in tech",
+                "Falco on platform"
+            ],
+            "ok": [
+                "Falco above me"
+            ],
+            "bad": [
+                "Above flaco",
+                "Scramble situation"
+            ]
+        },
+        "movement": "",
+        "punish": ""
     },
     "fox": {
-        "gameplan": "The way to beat Fox is to out manoeuvre him\nYou must keep pace with his obligatory bullshit, space around it and punish hard when given an opening\nALLWAYS be looking at the Fox, you will not be able to react to his shit otherwise\n\nYou must be comfortable with moving around with DD and WD, combining the 2 to make a perfectly spaced neutral\n\nAfter this has been achieve, you will be moving around the Fox's burst options, those most commonly being a dash or sh into a very fast move\nYou will need to react to witch he choses and punish accordingly\nAdditinaly, you will need to observe if the Fox wishes to over extend\nThe best way to stop this is to wall just outside of his dash distance, using fast fall fair and nair and dtilt to make sure he doesn't try to attack your dash backs, and to catch any unthoughtful approaches (tho these are more to threaten rather than try to hit him)\n\nFinaly if the Fox decides that approaching is not game, then just run up dtilt / fair then GTFO of there, this should make them do shit most the time\n\nYou really do not want to approach Fox most the time, by approach, I mean be anywhere near him, since that's where he will be at his strongest, so the best position for you, is cornering him, so take space, but NEVER overextend on him, you can overshoot if he does not want to play for a prolonged period of time, otherwise keep your zone",
-        "respect": "Mix up DI on uthrow and uair, try making him dash the furthest distance, then make him dash no where\n\nRespect his ledge-dash, that shit is insane, when near the ledge, stand just far enough where fair will hit a max distance ledge dash usmash, this will allow you to react to what he does after it, and you can punish if he tries something stupid\n\nFOR THE EVER LOVING FUCK PLEASE STOP JUMPING INFRONT OF FOX, he will kill you for it, never ever jump when you are in his DD range, it is not worth it, you can jump outside of it to wall, but never to an aerial inside of his range",
-        "not_respect": "Lazars are surprisingly unsafe at close distances, so punish him for it if he doesn't want to approach",
-        "edge_guarding": "<a href='https://www.youtube.com/watch?v=8LoaduZZTA8&list=PLoU3TQBakHOqTUZpyYJoP6usmYGQKmolx&index=4'>Edgeguarding fox</a>\n\nBe smart, you must be aware of where and when the Fox wishes to do something\nYou must position yourself differently depending on what the Fox likes to do",
-        "combos": "Basically try to dair him or fsmash him after aerials, utilt is a good combo starter, often leading him offstage or into a dair\n\nSuper late fair/spaced nair can both lead to a clean grab opportunity at low %",
-        "throws": "<a href=\"https://marthnerd.blogspot.com/2017/03/marths-uthrow-combos-on-fox-and-falco.html\">Combo flow charts for uthrow</a>",
-        "defence": "Don't shield, if you do shield one of his attacks, it becomes RPS of rolling, WD OOS, or grab / aerial OOS (this last option is risky AF, but catches some of the obligatory bullshit he will try on your shield that is not safe)\n\nAnother option to shielding is just to CC alot at low %, this will probably end up with you being able to grab, dtilt or fsmash if he is at high % or near a ledge",
-        "recovery": "Watch out for his shine, try not to be too close to the ledge for too long as that's where it is most potent, be quick and decisive on where you want to go, as a hesitation is all the Fox needs to shine spike you\n\nDONT JUMP TO LEGDE YOU WILL BE SHINED",
+        "movement": "The way to beat Fox is to out manoeuvre him\nYou must keep pace with his obligatory bullshit, space around it and punish hard when given an opening\nALLWAYS be looking at the Fox, you will not be able to react to his shit otherwise.\n\nYou must be comfortable with moving around to make a perfectly spaced neutral.\nDash dancing is preferred VS Fox at close range, Wave Dash and Shield Drops should be used for clean platform movement.\nHowever, You do not want to be dash dancing on the other side of the stage, this will allow the Fox to not be pressured by your sword and grab.\nYou want to be dash dancing to push towards Fox, this will force the Fox to act or run away.",
+        "gameplan": "Once your are within distance of Foxes burst range, you will be play off of these options.\nThe most common options for Fox come after a dash or a SH, You will need to react to witch he choses and punish accordingly.\nAdditionally, you will need to observe if the Fox wishes to over extend or dash back.\n\nAfter this you will want to push him offstage to gimp or edge guard him.",
+        "respect": "<h2>Shine</h2>\nFox has many a option to rush-down Marth with, the most deadly of witch is his Shine.\nShine can be beaten by predicting where he will do it (as an undershoot or overshoot) and grabbing before or after he does it.\nIf the fox is overshooting his shine, dashing forwards to grab him before he gets it out is a good option.\nYou can also do a in-place option to beat it out such as SH delayed in-place FF fair or in-place D-Tilt.\nIf the Fox decides to do an aerial instead, you will want to try to ether whiff punish it with grab or beat it out with your sword.\n\n<h3>Aerials</h3>\nTo make sure he doesn't try to attack your dash backs, you will need to mix in in-place options.\nIn-place / drift back AC N-Air is good for catching an overshoot N-Air / D-Air, but is susceptible to being hit from other options due to its small effective coverage.\nIn-place / drift back instant SHFFL F-Air is also good for catching an overshoot aerials and will also cover for full-hop aerials.\nIn-place D-Tilt is good after other options to catch the Fox running at you with unthoughtful approaches, however you don't want to be walling out with D-Tilt.\n\nAfter you do N-Air / F-Air, you will need to mix-up what you do after it, such as a dash away, dash forwards, shield, D-Tilt, grab or something else; The key thing is to mix up what you do after so you don't get punished.\n\n<h3>Dash dancing</h3>\nIf the Fox decides to dash dance / delay their approach, you can use D-Tilt to poke and provoke the Fox to approach.\nYou can do this by doing a run cancel D-Tilt to catch his dash back.\nIf the Fox is weary of the above option, wave dash D-Tilt also works to catch them dashing back in.\nYou can also try to use a riskier option such as dash attack and f-smash to call out the Fox.\n\n<h3>Grab</h3>\nFox can get a 0-50% combo off of U-Throw -> U-Air; However this can be alleviated by SDI-ing the U-Air.\nFox can grab you if you do not mix up your aerials and if you dash back too much.\n\n<h3>Burst kill options</h3>\nAt high %s Fox has alot of burst kill options or options that lead to a kill.\nThese include:\n    - Grab\n    - U-Smash\n    - U-Air\n    - Shine\nThese can be dealt with the same way as before, however the risk reward is skewed heavily for Fox, as a slip up and your dead.\nIt's better to play more cautious of these options at high %s.",
+        "not_respect": "Lazars are surprisingly unsafe at close distances, so punish him for it if he doesn't want to approach.\nDash attack, F-Smash and Grab are good for this.",
+        "punish": "Fox is the fastest faller in the game, this allows Marth to basically indefinitely juggle Fox.\nHowever, you do not want to juggle him forever, as Fox above you at high % isn't really that good due to his fast fall speed.\nThis means you want to use juggling as a means to combo him into a finisher.\n\nYou will want to ether:\n    - Ladder combo him above a platform so you can land on the platform and F-Smash him.\n    - Juggle him off stage into a D-Air, Up-B or F-Smash.",
+        "edge_guarding": "Be smart, you must be aware of where and when the Fox wishes to do something\nYou must position yourself differently depending on what the Fox likes to do\n\n<h3>Side-B</h3>\nIf he is above ledge, you must be ready for him to side b to a platform or at you.\nThese can be covered by a N-Air / F-Air before or just after the ledge.\n\nHe can also choose to try to snap to the ledge. If he does not space correctly, you can D-Tilt the side B.\nOtherwise, you will need to D-Air or ledge hog the Side-B.\n\nI found I can also use Neutral-B to cover ledge for side Bs, however this is really slow and is more of a call out.\n\n<h3>Up-B</h3>\nUp-B can be covered in many ways depending on the angle by the Fox.\n\n<h4>Above ledge</h4>\n\n    If fox is above ledge and far enough away from you, he with ether Up B:\n    - towards you / to ledge, witch you can cover with a F-Air / F-Smash.\n    - to a platform, witch you can F-Air / N-Air (later %s).\n    - horizontality to stage, witch you can F-Smash\n    \n    If Fox is close enough, you can go out and D-Air / F-Air him.\n<h4>Below ledge</h4>\n    If it will hit you, you can opt for a counter; However, if the Fox can snap to ledge, you can mix it up and hog the ledge or D-Air him.\n    If Fox is close enough to the ledge when he Up-Bs, you can use the ledge i-frames to go and hit the fox with side B, B-Air or F-Air.\n    \n    If the Fox is further away but still in reach, you should go out and F-Air / Up-B him.\n    \n    If he aims for the ledge, you can D-Air him, however watch out he does not wall tech it.",
+        "combos": "U-Tilt -> D-Air\nF-Air -> D-Air\nU-Air -> D-Air\nU-Air -> F-Smash\n\nGrab follow ups",
+        "defence": "",
+        "recovery": "Watch out for his shine, try not to be too close to the ledge for too long as that's where it is most potent, be quick and decisive on where you want to go, as a hesitation is all the Fox needs to shine spike you",
+        "throws": "<h3>Low %</h3>\n    Do one of:\n    - U-Throw: The chain grab\n    - F-Throw: D-Tilt (at ledge) / Re-Grab / Tech chase\n\n<h3>Mid %</h3>\n    Do one of:\n    - U-Throw: Juggle\n    - F-Throw: D-Tilt (at ledge) / Mix-Up off platform / Tech chase\n\n<h3>High %</h3>\n    Do one of:\n    - D-Throw: Tech chase\n    - B-Throw: Tech chase\n    - F-Throw: D-Tilt (at ledge) / Mix-Up off platform / Tech chase",
         "stages": {
             "good": "fd",
             "bad": "dl"
         },
         "resources": {
             "Chain grab (simple)": "https://docs.google.com/document/d/1SpxgOKu8QUxN6fdlw7v1g2ovV_Qaxqtle97ZPbETdb8/edit",
-			"GURU MU": "https://melee.guru/characters/matchups/marth-vs-fox.html"
+            "Edge guarding Fox": "https://www.youtube.com/watch?v=8LoaduZZTA8&list=PLoU3TQBakHOqTUZpyYJoP6usmYGQKmolx&index=4",
+            "GURU MU": "https://melee.guru/characters/matchups/marth-vs-fox.html"
         },
         "framedata": "fox",
         "pos": {
-            "best": ["Fox Offstage", "Fox in tech on platform", "Fox in juggle"],
-            "good": ["Fox Above Marth", "Fox in corner", "Fox In Tech in corner"],
-            "ok": ["Fox In Tech (RTC is a bit hard on them)", "Marth outside of Fox dash range, but not in corner"],
-            "bad": ["Marth Above Fox", "Marth in Fox dash range", "Marth in corner"]
+            "best": [
+                "Fox Offstage",
+                "Fox in tech on platform",
+                "Fox in juggle"
+            ],
+            "good": [
+                "Fox Above Marth",
+                "Fox in corner",
+                "Fox In Tech in corner"
+            ],
+            "ok": [
+                "Fox In Tech (RTC is a bit hard on them)",
+                "Marth outside of Fox dash range, but not in corner"
+            ],
+            "bad": [
+                "Marth Above Fox",
+                "Marth in Fox dash range",
+                "Marth in corner"
+            ]
         }
     },
     "ganon": {
@@ -164,7 +202,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "gaw": {
         "gameplan": "",
@@ -186,7 +226,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "ics": {
         "gameplan": "Neutral is consisted of Marth trying to wall out the ICs ground approach with dtilt, and try to corner the ICs to get them offstage\nthey can't approach Marth from the air, If they start to jump, you can anti-air with in place or fade back nair, which will probably split the climbers\nDtilt is good for holding space and WD forward / dash -> crouch dtilt is good for taking space\n\nAfter you hit a dtilt you can do one of:\n1: you can ether stay where you are and punish what they do\n2: dash forwards to take space\n3: call-out an option\n4: wait for them to dash back and dash forwards to take space\n5: WD forwards if you know they will wait / do nothing\n\nIf you whiff the dtilt, and they are close enough to punish you can do one of:\n1: dtilt again\n2: WD back (and dtilt if they approach, but don't do it every time)\n3: dash back -> mix up\n4: call-out an option\n5: shield -> quick grab fthrow\n6: hold space\n\nWhen they WD / dash forwards with an attack, you have a few options:\n1: shield the attack if they go fully in, then fthrow quickly before Nana can get her shield up\n2: dash back (normally into punish)\n3: fade back fair (if it hits a climber, take space otherwise continue to wall)\n4: WD back dtilt\n\n\nFtilt is good too, but its slower than dtilt, so use with caution\nApproaching fair is a bit too committal, I think I can drift it forwards, but in place and retreating fairs are good\nDon't dash dance too predictably, you will be hit",
@@ -208,7 +250,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "kirby": {
         "gameplan": "Fair alot, zone, he can't do shit lol\nPlay like its smash ultimate",
@@ -230,7 +274,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "link": {
         "gameplan": "",
@@ -252,7 +298,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "luigi": {
         "gameplan": "",
@@ -274,7 +322,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "mario": {
         "gameplan": "",
@@ -296,20 +346,24 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "marth": {
-        "gameplan": "",
-        "respect": "",
-        "not_respect": "",
-        "edge_guarding": "",
-        "combos": "",
-        "throws": "",
-        "defence": "",
-        "recovery": "",
+        "movement": "You will want to try and hold center, walling out using D-Tilt to control the ground and stuff movement.\nWD forwards is risky in this MU, but needs to be used to poke at Marth when he is dash dancing\nYou can dash back to whiff punish Marth's moves due to his end lag on his moves, however this looses to him poking with D-Tilt.\nIf Marth starts to jump to beat D-Tilt, you should also start jumping to meet him in the air to anti-air him.\nBut if the Marth also an instant aerial, you will want to whiff punish it or beat it out before the hit-box comes out.\n\nBeing bellow Marth is also strong as he has a hard time trying to get down.",
+        "gameplan": "D-Tilt controls the ground in this MU, along with his long dash, this makes the ground a very strong place for both of us.\nIf one Marth cannot wall out the other from the ground, they will loose to Marth's dash dance.\nOtherwise, if the Marth knows how to counter play D-Tilt, it becomes a RPS of choosing to D-Tilt, aerials, and whiff punishing.\n You do not want to be in the air, however its one of the best counters to D-Tilt.\nSo when you jump, you will want to mix-up when you jump, as otherwise it could lead to you getting anti-aired and full comboed or getting F-Smashed in the face.\n\nOnce you have established center control, you will want to try and keep Marth in the corner.\nDue to Marth's long dash, positioning your self within the dash will allow you to D-Tilt him, but be ware of his Grab; This becomes less of a problem near the ledge as Marth can no longer dash back.\nYou will want to cut off any grounded approach using D-Tilt, only really leaving jumping out of the corner as a approach, which is a bad option we can exploit.\nIf Marth jumps out of the corner, it could lead to him getting sent of stage; This a really good position for us as Marth's recovery is very exploitable himself.\nIf you don't send Marth offstage, you can try getting him above you, and due to D-Air's small size, he will struggle to get back down, just watch out for Side-B stalls.",
+        "respect": "<h3>D-Tilt</h3>\nThis move controls the ground in this MU.\nOn the ground, It can be beaten by CCing the weak part of it and D-Tilt-ing back or dashing out of crouch and grabbing it.\n\nIn the air, you can D-Air into a grab it past 5%; and at later %s, you can N-Air / F-Air him (after they break CC).\n\n<h3>F-Air</h3>\nThis move controls the air in this MU.\nWalling with F-Air stops any aerial approach by Marth.\nIt is also really good at laddering Marth offstage.\n\n<h3>U-Air</h3>\nThis move is the equivalent of an aerial dash attack.\nMarth will be using U-Air to keep Marth above you, since you has no good options bellow you, you will struggle to get down vs him\nYou will need to mix up between double jumping / air dodging to a platform / ledge and stalling with Side-B to mix-up timing.\n\n<h3>D-Air</h3>\nD-Air is one of the best ways to stop you from D-Tilt-ing, however, to get anything off it, the Marth must fall with it, meaning he has to delay the D-Air.\nThis means if Marth jumps predicable or does not mix up what he does when he jumps, we can anti-air him.\n\n<h3>F-Smash</h3>\nF-Smash is the fear that keeps you grounded, as if Marth reads you will jump and F-Smashes it, you will often die at 20%.\nHowever, due to its low lag, its easily whiff punished or shielded.\n\nJust watch out for if the Marth predicts you will dash back, as its quite good at covering it, often times dashing behind F-Smash is better.",
+        "not_respect": "<h3>Counter</h3>\nThis move is stupid laggy, when he does it, its active for 30 frames, then vulnerable for another 30.\nIf you don't want to deal with active frames, you can just grab it, otherwise change a tipper F-Smash.\n\n<h3>Side-B</h3>\nThis move is negative on CC and offstage has so much lag you can easily go off and punish it.",
+        "punish": "Marth has a terrible time coming directly down, so we can exploit this.\nJust like Sheik, you will want to find your way underneath Marth, and shark him with U-Airs, F-Airs and U-Tilts.\nAfter not allowing Marth down, you will be pushing him to the corners, meaning as with Fox, you can then try to finish him off with a D-Air / F-Smash / Up-B, however, if Marth is at a higher %, these often wont connect, witch is fine as Marth's edge guarding is really good vs him self.",
+        "edge_guarding": "Edge guarding Marth is the key to killing him early.\n\nYou will mostly be spaced to hit bad up B angles with D-Tilt / F-Smash.\nOnce the Marth shows (or you know) he will mix up how he grabs the ledge, you can start to ledge hog and start to hit him offstage.\n\n<h3>Side-B</h3>\nMarth Side-B has 21 frames of recovery in the air and stalls him in one spot vertically. This makes it really easy to react to and hit him.\nIf he goes bellow ledge, you can grab the ledge for i-frames and go off and B-Air him.\nIf he is far enough out, you can run off and Up-B the Side-B / him going low.\nAlthough these options loose to Marth Up-B-ing early.\n\nIf he is horizontal to the ledge and is close enough, run off fair works to push him back.\n\nIf he is above the ledge and close enough, then you continue to shark him with F-Airs and B-Airs.",
+        "combos": "F-Air -> F-Smash\nF-Air -> D-Air\nD-Air -> Grab\nF-Air -> F-Air",
+        "throws": "<h3>Low %</h3>\nF-Throw -> Re-Grab\nF-Throw -> F-Air / N-Air\nF-Throw -> F-Smash\nU-Throw -> U-Tilt\n\n<h3>Mid %</h3>\nU-Throw -> Juggle\nF-Throw -> Pivot F-Smash / Tech Chase\n\n\n<h3>High %</h3>\nU-Throw -> Juggle\nF-Throw -> Pivot F-Smash / Juggle",
+        "defence": "CC is very strong at low % vs Marth, so while your at low %, you should be using CC to punish bad approaches; Just watch out for D-Air.",
+        "recovery": "When recovering VS Marth, you want to make sure to be mixing-up between going low and high, as well as how close you get to the ledge.\n\nIf you Side-B too close to the ledge however, you will be punished, especially if you Side-B bellow ledge, as the bubble Marth can cover increases from bellow the ledge.",
         "stages": {
-            "good": "",
-            "bad": ""
+            "good": "fd",
+            "bad": "dl"
         },
         "resources": {
             "Marth discord talking about dito": "https://discord.com/channels/187922949863374848/188668011534614537/365897193078652948"
@@ -342,7 +396,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "ness": {
         "gameplan": "",
@@ -364,7 +420,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "peach": {
         "gameplan": "",
@@ -388,7 +446,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "pichu": {
         "gameplan": "",
@@ -410,7 +470,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "pika": {
         "gameplan": "",
@@ -434,7 +496,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "puff": {
         "gameplan": "Don't scrap with puff, play range game\nDD around their moves (side b and bair are the most common) AND mix up *air drift for walling\n*air -> 0-20 (puff): nair, 20-100: fair, 110+%: nair to kill / edge guard\n\nNair is good when they are on plat",
@@ -451,15 +515,29 @@
         },
         "resources": {
             "PPMD puff MU": "https://smashboards.com/threads/carefully-ask-ppmd-about-the-tiara-guy.118998/page-213#post-14520061",
-			"THE puff VS marth video (zain huzband training)": "https://www.youtube.com/watch?v=O3cGeAECwUk&list=PLvad0179U0feCeWZOYD58DOlTylx5ABBG&index=3"
+            "THE puff VS marth video (zain huzband training)": "https://www.youtube.com/watch?v=O3cGeAECwUk&list=PLvad0179U0feCeWZOYD58DOlTylx5ABBG&index=3"
         },
         "framedata": "jigglypuff",
         "pos": {
-            "best": ["Puff in grab"],
-            "good": ["Puff in tech chase", "Puff offstage"],
-            "ok": ["Puff on ledge", "Puff on platform"],
-            "bad": ["Marth Above Puff", "Marth facing away next to Puff", "Marth in Sheild"]
-        }
+            "best": [
+                "Puff in grab"
+            ],
+            "good": [
+                "Puff in tech chase",
+                "Puff offstage"
+            ],
+            "ok": [
+                "Puff on ledge",
+                "Puff on platform"
+            ],
+            "bad": [
+                "Marth Above Puff",
+                "Marth facing away next to Puff",
+                "Marth in Sheild"
+            ]
+        },
+        "movement": "",
+        "punish": ""
     },
     "roy": {
         "gameplan": "",
@@ -481,7 +559,9 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     },
     "samus": {
         "gameplan": "Dash dance inside range, if they decide to camp, power-shield projectiles\nWatch out for CC when doing dtilt / fair approaches, mix in grabs to catch these\n",
@@ -496,16 +576,27 @@
             "good": "ys",
             "bad": "dl"
         },
-        "resources": {
-			
-		},
+        "resources": {},
         "framedata": "samus",
         "pos": {
-            "best": ["Samus in tech on plat", "Samus in air"],
-            "good": ["Samus offstage", "Samus in tech"],
-            "ok": ["Samus in grab"],
-            "bad": ["Marth offstage", "Marth in corner"]
-        }
+            "best": [
+                "Samus in tech on plat",
+                "Samus in air"
+            ],
+            "good": [
+                "Samus offstage",
+                "Samus in tech"
+            ],
+            "ok": [
+                "Samus in grab"
+            ],
+            "bad": [
+                "Marth offstage",
+                "Marth in corner"
+            ]
+        },
+        "movement": "",
+        "punish": ""
     },
     "sheik": {
         "gameplan": "Grab em\ndtilt pressure, the damn thing is broken, stay grounded\nCan run up and shield, but make sure they don't grab you\nAvoid the grab, so don't throw out stupid shit, you'll be grabed\nWalling with nair works too",
@@ -528,11 +619,24 @@
         },
         "framedata": "sheik",
         "pos": {
-            "best": ["Sheik OffStage"],
-            "good": ["Sheik In Tech On Platform", "Sheik In Air"],
-            "ok": ["Sheik In Tech", "Sheik On Platform"],
-            "bad": ["Marth Offstage", "Marth On Ledge"]
-        }
+            "best": [
+                "Sheik OffStage"
+            ],
+            "good": [
+                "Sheik In Tech On Platform",
+                "Sheik In Air"
+            ],
+            "ok": [
+                "Sheik In Tech",
+                "Sheik On Platform"
+            ],
+            "bad": [
+                "Marth Offstage",
+                "Marth On Ledge"
+            ]
+        },
+        "movement": "",
+        "punish": ""
     },
     "yoshi": {
         "gameplan": "This character is whacky and crazy AF\n\nStep 1: throw punish game out the window, it wont help here\nStep 2: never, ever, try to hit it first, it will armour though your move and kill you for it\nStep 3: follow the gameplan\n\n\nYou basically want to camp Yoshi, you will not be approaching him as that armour stops us\nInstead we will be playing a whiff punish game, one where we anti-air his aerial then run away or wall him out.\nIf he whiff something in-front of you, grab him and follow the flowchart bellow\notherwise he will be coming down on you with aerials, witch can be covered by utilt, ftilt, fsmash, uair and fair\n\nRinse and repeat until he is dead",
@@ -553,11 +657,25 @@
         },
         "framedata": "yoshi",
         "pos": {
-            "best": ["Yoshi Offstage", "Yoshi in Tech"],
-            "good": ["Yoshi No Jump", "Yoshi above with no Jump"],
-            "ok": ["Yoshi above Marth"],
-            "bad": ["Marth on Ledge", "Marth in corner With Yoshi on Plat", "Yoshi on Plat"]
-        }
+            "best": [
+                "Yoshi Offstage",
+                "Yoshi in Tech"
+            ],
+            "good": [
+                "Yoshi No Jump",
+                "Yoshi above with no Jump"
+            ],
+            "ok": [
+                "Yoshi above Marth"
+            ],
+            "bad": [
+                "Marth on Ledge",
+                "Marth in corner With Yoshi on Plat",
+                "Yoshi on Plat"
+            ]
+        },
+        "movement": "",
+        "punish": ""
     },
     "young link": {
         "gameplan": "",
@@ -579,6 +697,8 @@
             "good": [],
             "ok": [],
             "bad": []
-        }
+        },
+        "movement": "",
+        "punish": ""
     }
 }
