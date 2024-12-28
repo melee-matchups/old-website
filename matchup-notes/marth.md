@@ -1,8 +1,5 @@
 # Stuff to add
 
-FUCK all
-
-
 # Neutral
 
 	## Movement (HOW play)
@@ -54,7 +51,11 @@ FUCK all
 			However, due to its low lag, its easily whiff punished or shielded.
 			
 			Just watch out for if the Marth predicts you will dash back, as its quite good at covering it, often times dashing behind F-Smash is better.
-			
+		
+		### Dash attack
+			Marth might try to dash attack out the corner
+			At when your at low % you can CC the dash attack and grab it.
+			At when your at higher %s you can sheild it (when the other marth is at high %, you can up b him)
 
 	## Options not to respect
 	
@@ -81,8 +82,12 @@ FUCK all
 	## Edge Guarding
 		Edge guarding Marth is the key to killing him early.
 		
-		You will mostly be spaced to hit bad up B angles with D-Tilt / F-Smash.
+		You will mostly be spaced to hit bad up B angles with look away CC -> D-Tilt / F-Smash; This still leaves the mix up to WD to ledge (and you can run out of crouch to run off stage), but this only works past 7%, before that, you will need to be in any action, the best one is just another D-Tilt.
 		Once the Marth shows (or you know) he will mix up how he grabs the ledge, you can start to ledge hog and start to hit him offstage.
+		
+		### Double Jumps
+			Run off fair to cover double jump and Marth Side-B-ing close to the ledge
+			D-Tilt -> instant run off fair works sometimes too.
 		
 		### Side-B
 			Marth Side-B has 21 frames of recovery in the air and stalls him in one spot vertically. This makes it really easy to react to and hit him.
@@ -95,6 +100,7 @@ FUCK all
 			If he is above the ledge and close enough, then you continue to shark him with F-Airs and B-Airs.
 
 	## Throw Follow ups
+		Mix up between F-Throw and U-Throw, their DIs are different for each other.
 		
 		### Low %
 			F-Throw -> Re-Grab
@@ -110,6 +116,9 @@ FUCK all
 		### High %
 			U-Throw -> Juggle
 			F-Throw -> Pivot F-Smash / Juggle
+		
+		If you send Marth(& sheik / low teirs) offstage with a throw at low %s, you should dash dance to make it ambiguous weather you will WD to ledge, or come off and hit them.
+		While doing this, you can WD down to D-Tilt the recovery.
 			
 		
 # Defence

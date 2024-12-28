@@ -1,7 +1,5 @@
 # Stuff to add
 
-FUCK all
-
 
 # Neutral
 
@@ -134,7 +132,11 @@ FUCK all
 			
 		
 # Defence
-
+	
+	## CC
+		Most of Foxes aerials at low % can be CC'ed, this included N-Air and B-Air, so if he tries to hit you with these, you can CC -> Grab, D-Tilt or F-Smash
+		This works well if the Fox is coming down from a full hop with these aerials directly above you
+		
 	## Recovery
 	
 		Watch out for his shine, try not to be too close to the ledge for too long as that's where it is most potent, be quick and decisive on where you want to go, as a hesitation is all the Fox needs to shine spike you

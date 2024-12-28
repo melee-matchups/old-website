@@ -1,5 +1,8 @@
 # Stuff to add
 
+dashing back when puff take space and instantly punish with grab, aerial or Fsmash
+
+Can dash grab: idle frame 2 & first few frames of squat
 
 # Neutral
 

@@ -1,0 +1,97 @@
+U-Air
+D-Air
+B-Air
+F-Air
+N-Air
+
+U-Tilt
+D-Tilt
+F-Tilt
+Jab
+
+Up-B
+Side-B
+Down-B
+Neutral-B
+
+F-Smash
+D-Smash
+U-Smash
+
+Grab
+Grab F-Throw _
+Grab U-Throw
+Grab B-Throw
+Grab D-Throw
+
+
+
+U-Air U-Air
+U-Air D-Air
+U-Air F-Air
+U-Air N-Air
+U-Air F-Smash
+
+D-Air D-Air
+D-Air Grab
+D-Air F-Smash
+D-Air Up-B
+
+B-Air D-Air
+B-Air F-Air
+
+F-Air F-Air
+F-Air N-Air
+F-Air D-Air
+F-Air U-Tilt
+F-Air Up-B
+F-Air F-Smash
+F-Air D-Smash
+F-Air Grab
+F-Air Neutral-B
+
+N-Air F-Air
+N-Air D-Air
+N-Air F-Smash
+N-Air Up-B
+
+U-Tilt D-Air
+U-Tilt N-Air
+U-Tilt B-Air
+U-Tilt F-Air
+U-Tilt U-Air
+U-Tilt U-Air
+U-Tilt F-Smash
+
+D-Tilt Grab _
+
+Side-B F-Air
+Side-B U-Air
+Side-B Up-B
+Side-B U-Tilt
+Side-B Side-B
+
+U-Smash Grab
+U-Smash F-Air
+U-Smash F-Smash
+
+F-Throw Grab _
+F-Throw F-Smash _
+F-Throw F-Air
+F-Throw N-Air
+F-Throw F-Tilt
+F-Throw D-Air _
+F-Throw D-Smash *
+
+U-Throw Grab
+U-Throw F-Air
+U-Throw N-Air
+U-Throw D-Air
+U-Throw B-Air
+U-Throw U-Air
+U-Throw F-Smash
+
+D-Throw Grab
+D-Throw D-Air
+D-Throw F-Air
+D-Throw N-Air
